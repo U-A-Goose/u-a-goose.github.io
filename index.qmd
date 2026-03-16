@@ -11,7 +11,7 @@ css: styles.css
 
 ## Welcome to Goose
 
-We are the **Goose** (GrOup Of Software Engineering) group at [University of Alberta](https://www.ualberta.ca/en/index.html),
+We are the **U-a-Goose** (GrOup Of Software Engineering) group at [University of Alberta](https://www.ualberta.ca/en/index.html),
 working at the intersection of:
 
 - **Foundation Models for Software** — building strong foundation models that can understand and reason about complex software systems at scale
@@ -54,7 +54,7 @@ ICSE, FSE, ASE, ISSTA · IJCAI, AAAI · IEEE S&P, ESORICS
 ### News
 
 ::: {.news-list}
-- <span class="news-date">[2026.03]</span>  Dr. Zhou Yang win the MSR Outstanding Doctoral Reserch Award🏆! There is only one award this year.
+- <span class="news-date">[2026.03]</span>  Dr. Zhou Yang win the MSR Outstanding Doctoral Reserch Award🏆! There is only one awardee this year.
 - <span class="news-date">[2026.01]</span> One paper (on automatically protecting critical software operations in TEE) is accepted by **IEEE Transactions on Software Engineering**!
 :::
 
