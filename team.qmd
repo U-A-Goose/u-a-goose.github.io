@@ -4,7 +4,7 @@ title: "Team"
 
 ## Principal Investigator
 
-::: {.grid}
+::: {.grid style="align-items: start;"}
 ::: {.g-col-3}
 ![](assets/images/protrait_zy.jpeg)
 :::
@@ -22,7 +22,7 @@ Dr. Zhou Yang is an Assistant Professor at the University of Alberta and a Fello
 
 ## Graduate Students
 
-::: {.grid}
+::: {.grid style="align-items: start;"}
 ::: {.g-col-3}
 ![](assets/images/protrait_hz.jpg)
 :::
@@ -47,3 +47,13 @@ Research interests: Testing game compatibility layer
 [//]: # (|------|--------|------|-----------------|)
 
 [//]: # (| [Name] | PhD | 202X | [Position, Institution] |)
+
+<style>
+.grid .g-col-9 h3:first-child {
+  margin-top: 0;
+  padding-top: 0;
+}
+.grid .g-col-3 p {
+  margin-bottom: 0;
+}
+</style>
