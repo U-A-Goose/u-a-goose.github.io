@@ -12,9 +12,9 @@ title: "Team"
 ### Prof. Zhou Yang
 **Assistant Professor at the University of Alberta, Fellow at Amii (Alberta Machine Intelligence Institute)**
 
-Dr. Zhou received his Ph.D at Singapore Management University.
+Dr. Zhou Yang is an Assistant Professor at the University of Alberta and a Fellow at the Alberta Machine Intelligence Institute (Amii). He received his Ph.D. from Singapore Management University and his M.Sc. from University College London. His research focuses on building strong foundation models for complex software systems, developing trusted AI for software engineering, and analyzing the socio-technical impact of AI on open-source software and developer productivity.
 
-[📧 zy25@ualberta.ca](mailto:zy25@ualberta.ca) | [🔗 Google Scholar](https://scholar.google.com/citations?user=4oWBhPsAAAAJ&hl=en)
+[📧 zy25@ualberta.ca](mailto:zy25@ualberta.ca) | [🔗 Google Scholar](https://scholar.google.com/citations?user=4oWBhPsAAAAJ&hl=en) | [🌐 Homepage](https://homepage.zhouyang.me/)
 :::
 :::
 
@@ -24,22 +24,26 @@ Dr. Zhou received his Ph.D at Singapore Management University.
 
 ::: {.grid}
 ::: {.g-col-3}
-![](assets/images/placeholder.png)
+![](assets/images/protrait_hz.jpg)
 :::
 ::: {.g-col-9}
-### [Student Name]
-**PhD Student** · Joined [Year]
+### Hanzheng (Hozier) Dai
+**PhD Student** · Joined 2026
 
-Research interests: [topic]
+Research interests: Testing game compatibility layer
 
-[📧 email@university.edu](mailto:email@university.edu)
+[📧 hanzhen3@ualberta.ca](mailto:hanzhen3@ualberta.ca) | [🌐 Homepage](https://hozierddd.github.io/)
 :::
 :::
 
----
+[//]: # (---)
 
-## Alumni
+[//]: # ()
+[//]: # (## Alumni)
 
-| Name | Degree | Year | Current Position |
-|------|--------|------|-----------------|
-| [Name] | PhD | 202X | [Position, Institution] |
+[//]: # ()
+[//]: # (| Name | Degree | Year | Current Position |)
+
+[//]: # (|------|--------|------|-----------------|)
+
+[//]: # (| [Name] | PhD | 202X | [Position, Institution] |)
