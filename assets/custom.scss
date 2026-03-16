@@ -1,0 +1,22 @@
+/*-- scss:defaults --*/
+
+// Override Bootstrap / Cosmo variables here
+// $primary: #2c7bb6;
+// $font-family-base: "Source Sans Pro", sans-serif;
+
+/*-- scss:rules --*/
+
+// Custom styles
+.navbar-brand {
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+
+.navbar-brand img {
+  max-height: 48px;
+  width: auto;
+}
+
+.navbar-nav .nav-link {
+  font-size: 1.05rem;
+}

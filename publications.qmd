@@ -1,0 +1,22 @@
+---
+title: "Publications"
+bibliography: assets/references.bib
+---
+
+## Journal Articles
+
+1. **[Author(s)]** (202X). [Title]. *[Journal]*, *[Volume]*([Issue]), [pages]. [DOI](#)
+
+2. **[Author(s)]** (202X). [Title]. *[Journal]*, *[Volume]*([Issue]), [pages]. [DOI](#)
+
+---
+
+## Conference Papers
+
+1. **[Author(s)]** (202X). [Title]. *Proceedings of [Conference]*, [pages]. [DOI](#)
+
+---
+
+## Preprints
+
+1. **[Author(s)]** (202X). [Title]. *arXiv*. [Link](#)

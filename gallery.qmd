@@ -1,0 +1,33 @@
+---
+title: "Gallery"
+---
+
+## Lab Life
+
+::: {.grid}
+::: {.g-col-4}
+![Caption 1](assets/images/placeholder.png)
+:::
+::: {.g-col-4}
+![Caption 2](assets/images/placeholder.png)
+:::
+::: {.g-col-4}
+![Caption 3](assets/images/placeholder.png)
+:::
+:::
+
+---
+
+## Conferences & Events
+
+::: {.grid}
+::: {.g-col-4}
+![Caption 4](assets/images/placeholder.png)
+:::
+::: {.g-col-4}
+![Caption 5](assets/images/placeholder.png)
+:::
+::: {.g-col-4}
+![Caption 6](assets/images/placeholder.png)
+:::
+:::

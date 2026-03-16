@@ -1,0 +1,33 @@
+---
+title: "Research"
+---
+
+## Overview
+
+Our research focuses on [broad area]. We are particularly interested in:
+
+- [Research theme 1]
+- [Research theme 2]
+- [Research theme 3]
+
+---
+
+## Projects
+
+### Project Title 1
+
+![](assets/images/placeholder.png){width=60%}
+
+[Description of the project, goals, methods, and outcomes.]
+
+**Collaborators:** [Names / Institutions]  
+**Funding:** [Grant / Agency]
+
+---
+
+### Project Title 2
+
+[Description of the project, goals, methods, and outcomes.]
+
+**Collaborators:** [Names / Institutions]  
+**Funding:** [Grant / Agency]

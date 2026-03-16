@@ -1,0 +1,30 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "U-A-Goose"
+  navbar:
+    logo: assets/images/goose_2.png
+    logo-alt: "U-A-Goose"
+    left:
+      - href: index.qmd
+        text: Home
+      - href: team.qmd
+        text: Team
+      - href: research.qmd
+        text: Research
+      - href: publications.qmd
+        text: Publications
+      - href: gallery.qmd
+        text: Gallery
+  page-footer:
+    center: "© 2026 U-A-Goose · Built with [Quarto](https://quarto.org)"
+
+format:
+  html:
+    theme:
+      - cosmo
+      - assets/custom.scss
+    toc: false
+    smooth-scroll: true

@@ -1,0 +1,45 @@
+---
+title: "Team"
+---
+
+## Principal Investigator
+
+::: {.grid}
+::: {.g-col-3}
+![](assets/images/placeholder.png)
+:::
+::: {.g-col-9}
+### Prof. Zhou Yang
+**Assistant Professor at the University of Alberta, Fellow at Amii (Alberta Machine Intelligence Institute)**
+
+Dr. Zhou received his Ph.D at Singapore Management University.
+
+[📧 zy25@ualberta.ca](mailto:zy25@ualberta.ca) | [🔗 Google Scholar](https://scholar.google.com/citations?user=4oWBhPsAAAAJ&hl=en)
+:::
+:::
+
+---
+
+## Graduate Students
+
+::: {.grid}
+::: {.g-col-3}
+![](assets/images/placeholder.png)
+:::
+::: {.g-col-9}
+### [Student Name]
+**PhD Student** · Joined [Year]
+
+Research interests: [topic]
+
+[📧 email@university.edu](mailto:email@university.edu)
+:::
+:::
+
+---
+
+## Alumni
+
+| Name | Degree | Year | Current Position |
+|------|--------|------|-----------------|
+| [Name] | PhD | 202X | [Position, Institution] |
