@@ -4,6 +4,8 @@ project:
 
 website:
   title: "U-A-Goose"
+  site-url: https://u-a-goose.github.io
+  favicon: assets/images/goose_2.png
   navbar:
     logo: assets/images/goose_2.png
     logo-alt: "U-A-Goose"
