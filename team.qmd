@@ -6,7 +6,7 @@ title: "Team"
 
 ::: {.grid}
 ::: {.g-col-3}
-![](assets/images/placeholder.png)
+![](assets/images/protrait_zy.jpeg)
 :::
 ::: {.g-col-9}
 ### Prof. Zhou Yang
