@@ -20,6 +20,8 @@ website:
         text: Publications
       - href: gallery.qmd
         text: Gallery
+      - href: vacancy.qmd
+        text: Vacancy
   page-footer:
     center: "© 2026 U-A-Goose · Built with [Quarto](https://quarto.org)"
 
