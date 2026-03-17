@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://u-a-goose.github.io/team.html</loc>
+    <lastmod>2026-03-17T01:41:21.144Z</lastmod>
+  </url>
+  <url>
     <loc>https://u-a-goose.github.io/publications.html</loc>
-    <lastmod>2026-03-16T23:33:28.127Z</lastmod>
+    <lastmod>2026-03-17T01:41:21.144Z</lastmod>
   </url>
   <url>
     <loc>https://u-a-goose.github.io/index.html</loc>
-    <lastmod>2026-03-16T23:37:47.998Z</lastmod>
-  </url>
-  <url>
-    <loc>https://u-a-goose.github.io/research.html</loc>
-    <lastmod>2026-03-16T23:33:28.127Z</lastmod>
-  </url>
-  <url>
-    <loc>https://u-a-goose.github.io/team.html</loc>
-    <lastmod>2026-03-16T23:47:55.567Z</lastmod>
+    <lastmod>2026-03-17T01:41:21.144Z</lastmod>
   </url>
   <url>
     <loc>https://u-a-goose.github.io/gallery.html</loc>
-    <lastmod>2026-03-16T23:33:28.127Z</lastmod>
+    <lastmod>2026-03-17T01:41:21.144Z</lastmod>
+  </url>
+  <url>
+    <loc>https://u-a-goose.github.io/research.html</loc>
+    <lastmod>2026-03-17T01:41:21.144Z</lastmod>
   </url>
 </urlset>
