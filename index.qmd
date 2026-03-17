@@ -26,9 +26,9 @@ to build automated tools that improve **system reliability**, **developer produc
 </div>
 ```
 
-["Your Lab Motto Here"]{.lab-motto}
+<!-- ["Your Lab Motto Here"]{.lab-motto} -->
 
-::: {.info-row}
+<!-- ::: {.info-row}
 ::: {.info-item}
 [🤝]{.info-icon} **Global Collaborations**
 
@@ -40,12 +40,12 @@ Microsoft Research, Adobe, NUS, NTU, and many more institutions worldwide.
 
 ICSE, FSE, ASE, ISSTA · IJCAI, AAAI · IEEE S&P, ESORICS
 :::
-:::
+::: -->
 
-<div class="join-box">
+<!-- <div class="join-box">
   🎓 <strong>We are recruiting!</strong> We are looking for passionate PhD students and Research Engineers.<br>
   Contact <a href="mailto:zhou.yang@ualberta.ca">Prof. Zhou Yang</a> for more information.
-</div>
+</div> -->
 
 :::
 

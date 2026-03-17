@@ -29,3 +29,58 @@
   border-radius: 8px;
   display: block;
 }
+
+// Publications page - year on the left
+.pub-list {
+  margin-top: 1.5rem;
+}
+
+.pub-year-group {
+  display: flex !important;
+  flex-direction: row !important;
+  gap: 2rem;
+  margin-bottom: 1.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.pub-year-group:last-child {
+  border-bottom: none;
+}
+
+.pub-year {
+  min-width: 100px;
+  max-width: 100px;
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #2563eb;
+  padding-top: 0.25rem;
+  flex-shrink: 0;
+}
+
+.pub-entries {
+  flex: 1;
+  min-width: 0;
+}
+
+.pub-entry {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+  font-size: 0.95rem;
+}
+
+.pub-entry:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 600px) {
+  .pub-year-group {
+    flex-direction: column !important;
+    gap: 0.5rem;
+  }
+
+  .pub-year {
+    min-width: auto;
+    max-width: none;
+  }
+}

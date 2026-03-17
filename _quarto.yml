@@ -14,12 +14,8 @@ website:
         text: Home
       - href: team.qmd
         text: Team
-      - href: research.qmd
-        text: Research
       - href: publications.qmd
         text: Publications
-      - href: gallery.qmd
-        text: Gallery
       - href: vacancy.qmd
         text: Vacancy
   page-footer:
