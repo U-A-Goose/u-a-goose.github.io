@@ -36,6 +36,18 @@ Research interests: Testing game compatibility layer
 :::
 :::
 
+::: {.grid style="align-items: start;"}
+::: {.g-col-3}
+![](assets/images/protrait_zixi.jpg)
+:::
+::: {.g-col-9}
+### Zixi Chai
+**Master Student** · Joined 2026
+
+Research interests: Testing game compatibility layer
+
+[📧 zchai3@ualberta.ca](mailto:zchai3@ualberta.ca)
+
 [//]: # (---)
 
 [//]: # ()
@@ -55,5 +67,8 @@ Research interests: Testing game compatibility layer
 }
 .grid .g-col-3 p {
   margin-bottom: 0;
+}
+#graduate-students .grid {
+  margin-bottom: 2rem;
 }
 </style>
