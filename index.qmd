@@ -11,14 +11,7 @@ css: styles.css
 
 ## Welcome to Goose
 
-We are the **U-a-Goose** (GrOup Of Software Engineering) group at [University of Alberta](https://www.ualberta.ca/en/index.html),
-working at the intersection of:
-
-- **Foundation Models for Software** — building strong foundation models that can understand and reason about complex software systems at scale
-- **SE4AI** — applying and evaluating AI techniques within software engineering workflows
-
-We analyze software artefacts — code, execution traces, bug reports, Q&A posts, and developer networks —
-to build automated tools that improve **system reliability**, **developer productivity**, and **security**.
+We are the **U-a-Goose** (GrOup Of Software Engineering) group at [University of Alberta](https://www.ualberta.ca/en/index.html).
 
 ```{=html}
 <div class="lab-image">
