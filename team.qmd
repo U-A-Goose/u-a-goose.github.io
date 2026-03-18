@@ -12,11 +12,15 @@ title: "Team"
 ### Prof. Zhou Yang
 **Assistant Professor at the University of Alberta, Fellow at Amii (Alberta Machine Intelligence Institute)**
 
-Dr. Zhou Yang is an Assistant Professor at the University of Alberta and a Fellow at the Alberta Machine Intelligence Institute (Amii). He received his Ph.D. from Singapore Management University and his M.Sc. from University College London. His research focuses on building strong foundation models for complex software systems, developing trusted AI for software engineering, and analyzing the socio-technical impact of AI on open-source software and developer productivity.
+Bio: Zhou Yang is an Assistant Professor in the Department of Computing Science at the University of Alberta and an Amii Fellow. He completed his Ph.D. at Singapore Management University in December 2024, after earning an MSc from University College London. He previously served as a senior research engineer at the Centre for Research on Intelligent Software Engineering. He is recognized for establishing scientific and practical foundations of trustworthy codeLLMs, integrating robustness, security, privacy, and ecosystem insights to drive safer AI adoption in software engineering. Zhou has won with multiple awards, including 2026 MSR Outstanding Doctoral Research Award, 2025 ACM SIGSOFT Outstanding Doctoral Dissertation Award, 2024 IEEE Computer Society Best Paper Award, ACM Distinguished Paper Awards at ASE 2025 and ISSTA 2024, ACSAC Honorable Mention Award, and the Gold Medal in the ACM SRC at ICSE 2024. He serves on program and organizing committees for top software engineering conferences, collaborates with researchers across multiple continents, and is actively building a research group focused on large language models for code, AI security and privacy, and sustainable AI systems.
+
+
 
 [📧 zy25@ualberta.ca](mailto:zy25@ualberta.ca) | [🔗 Google Scholar](https://scholar.google.com/citations?user=4oWBhPsAAAAJ&hl=en) | [🌐 Homepage](https://homepage.zhouyang.me/)
 :::
 :::
+
+
 
 ---
 
@@ -28,9 +32,9 @@ Dr. Zhou Yang is an Assistant Professor at the University of Alberta and a Fello
 :::
 ::: {.g-col-9}
 ### Hanzheng (Hozier) Dai
-**PhD Student** · Joined 2026
+**PhD Student** · Joined Jan 2026
 
-Research interests: Testing game compatibility layer
+Research interests: Game Compatibility Layer
 
 [📧 hanzhen3@ualberta.ca](mailto:hanzhen3@ualberta.ca) | [🌐 Homepage](https://hozierddd.github.io/)
 :::
@@ -42,23 +46,23 @@ Research interests: Testing game compatibility layer
 :::
 ::: {.g-col-9}
 ### Zixi Chai
-**Master Student** · Joined 2026
+**MSc by Course, ECE Department** · Joined Jan 2026
 
-Research interests: Testing game compatibility layer
+Research interests: Specification-driven Development
 
 [📧 zchai3@ualberta.ca](mailto:zchai3@ualberta.ca)
+:::
+:::
 
-[//]: # (---)
+<!--
+---
 
-[//]: # ()
-[//]: # (## Alumni)
+## Alumni
 
-[//]: # ()
-[//]: # (| Name | Degree | Year | Current Position |)
-
-[//]: # (|------|--------|------|-----------------|)
-
-[//]: # (| [Name] | PhD | 202X | [Position, Institution] |)
+| Name | Degree | Year | Current Position |
+|------|--------|------|-----------------|
+| [Name] | PhD | 202X | [Position, Institution] |
+-->
 
 <style>
 .grid .g-col-9 h3:first-child {
