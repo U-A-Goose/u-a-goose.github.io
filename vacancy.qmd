@@ -8,19 +8,19 @@ I am looking for **self-motivated students** to join our group. If you are passi
 
 ### Graduate Students (PhD / Master by Research)
 
-Applications for **Fall 2026** admission are now closed. However, if you are a very strong candidate, we may make exceptions on a case-by-case basis — please contact me at [zy25@ualberta.ca](mailto:zy25@ualberta.ca) with your CV and a brief description of your research interests.
+Applications for **Fall 2026** admission are now closed. However, if you are a very strong candidate, we may make exceptions on a case-by-case basis — please contact me at [zy25@ualberta.ca](mailto:zy25@ualberta.ca) with your CV, transcript, and a brief description of your research interests.
 
 ---
 
 ### Research Assistant Positions for UofA Students
 
-If you are a current University of Alberta student (e.g., a Master's student in the ECE Department, or an undergraduate) and are interested in joining our group as a research assistant, please send your CV to [zy25@ualberta.ca](mailto:zy25@ualberta.ca).
+If you are a current University of Alberta student (e.g., a Master's student in the ECE Department, or an undergraduate) and are interested in joining our group as a research assistant, please send your CV and transcript to [zy25@ualberta.ca](mailto:zy25@ualberta.ca).
 
 ---
 
 ### Undergraduate Individual Studies
 
-If you are a UofA undergraduate interested in taking an individual study course (**CMPUT 399** or **CMPUT 499**), please contact me at [zy25@ualberta.ca](mailto:zy25@ualberta.ca) with your CV.
+If you are a UofA undergraduate interested in taking an individual study course (**CMPUT 399** or **CMPUT 499**), please contact me at [zy25@ualberta.ca](mailto:zy25@ualberta.ca) with your CV and transcript.
 
 ---
 
@@ -33,7 +33,8 @@ All prospective research assistants and individual study students will go throug
 2. **Presentation** — giving a short talk to demonstrate your understanding of the papers
 3. **Implementation** — reproducing or implementing some baseline methods
 
-This helps us assess your research potential and ensures a good mutual fit.
+
+During this process, we will evaluate each student's academic merits, prior research experience, and how well their background aligns with the group's research directions. This helps us assess your research potential and ensures a good mutual fit.
 :::
 
 ---
@@ -43,4 +44,3 @@ This helps us assess your research potential and ensures a good mutual fit.
 For all inquiries, please reach out to [Prof. Zhou Yang](mailto:zhou.yang@ualberta.ca).
 
 ---
-
