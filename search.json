@@ -1,68 +1,5 @@
 [
   {
-    "objectID": "vacancy.html",
-    "href": "vacancy.html",
-    "title": "Vacancy",
-    "section": "",
-    "text": "I am looking for self-motivated students to join our group. If you are passionate about software engineering and AI, please read on!\n\n\nGraduate Students (PhD / Master by Research)\nApplications for Fall 2026 admission are now closed. However, if you are a very strong candidate, we may make exceptions on a case-by-case basis — please contact me at zy25@ualberta.ca with your CV, transcript, and a brief description of your research interests.\n\n\n\nResearch Assistant Positions for UofA Students\nIf you are a current University of Alberta student (e.g., a Master’s student in the ECE Department, or an undergraduate) and are interested in joining our group as a research assistant, please send your CV and transcript to zy25@ualberta.ca.\n\n\n\nUndergraduate Individual Studies\nIf you are a UofA undergraduate interested in taking an individual study course (CMPUT 399 or CMPUT 499), please contact me at zy25@ualberta.ca with your CV and transcript.\n\n\n\n\n\n\n\nNoteScreening Process\n\n\n\nAll prospective research assistants and individual study students will go through a lightweight screening process, which typically involves:\n\nPaper reading — reading a few selected papers relevant to your intended research area\nPresentation — giving a short talk to demonstrate your understanding of the papers\nImplementation — reproducing or implementing some baseline methods\n\nDuring this process, we will evaluate each student’s academic merits, prior research experience, and how well their background aligns with the group’s research directions. This helps us assess your research potential and ensures a good mutual fit.\n\n\n\n\n\nContact\nFor all inquiries, please reach out to Prof. Zhou Yang."
-  },
-  {
-    "objectID": "research.html",
-    "href": "research.html",
-    "title": "Research",
-    "section": "",
-    "text": "Our research focuses on [broad area]. We are particularly interested in:\n\n[Research theme 1]\n[Research theme 2]\n[Research theme 3]"
-  },
-  {
-    "objectID": "research.html#overview",
-    "href": "research.html#overview",
-    "title": "Research",
-    "section": "",
-    "text": "Our research focuses on [broad area]. We are particularly interested in:\n\n[Research theme 1]\n[Research theme 2]\n[Research theme 3]"
-  },
-  {
-    "objectID": "research.html#projects",
-    "href": "research.html#projects",
-    "title": "Research",
-    "section": "Projects",
-    "text": "Projects\n\nProject Title 1\n\n[Description of the project, goals, methods, and outcomes.]\nCollaborators: [Names / Institutions]\nFunding: [Grant / Agency]\n\n\n\nProject Title 2\n[Description of the project, goals, methods, and outcomes.]\nCollaborators: [Names / Institutions]\nFunding: [Grant / Agency]"
-  },
-  {
-    "objectID": "gallery.html",
-    "href": "gallery.html",
-    "title": "Gallery",
-    "section": "",
-    "text": "Caption 1\n\n\n\n\n\n\n\nCaption 2\n\n\n\n\n\n\n\nCaption 3"
-  },
-  {
-    "objectID": "gallery.html#lab-life",
-    "href": "gallery.html#lab-life",
-    "title": "Gallery",
-    "section": "",
-    "text": "Caption 1\n\n\n\n\n\n\n\nCaption 2\n\n\n\n\n\n\n\nCaption 3"
-  },
-  {
-    "objectID": "gallery.html#conferences-events",
-    "href": "gallery.html#conferences-events",
-    "title": "Gallery",
-    "section": "Conferences & Events",
-    "text": "Conferences & Events\n\n\n\n\n\nCaption 4\n\n\n\n\n\n\n\nCaption 5\n\n\n\n\n\n\n\nCaption 6"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "U-A-Goose",
-    "section": "",
-    "text": "We are the U-a-Goose (GrOup Of Software Engineering) group at University of Alberta.\n\n\n\n  \n\n\n\n\nU-A-Goose studies trustworthy software engineering for the AI era, with a particular focus on large language models for code, AI security and privacy, and efficient and sustainable AI systems.\nOur projects sit at the intersection of software engineering and machine learning: robust coding assistants, evaluation and testing of AI-enabled systems, automated protection of critical software operations, specification-driven development, and emerging systems topics such as game compatibility layers.\n\n  Trustworthy Code LLMs\n  AI Security & Privacy\n  Software Engineering\n  Efficient AI Systems\n\n\n\n\n\nOur group is based in the Department of Computing Science at the University of Alberta. Prof. Zhou Yang is an Amii Fellow, and the lab is connected to the Amii research ecosystem through collaborative projects and Amii-supported initiatives, including the recently approved Amii RAP funding.\n\n\n\n\n\n\n\n\n\n[2026.03] Dr. Zhou Yang’s Amii RAP funding (2026 to 2027) 💰 is approved, collaborating with Matt Taylor.\n[2026.03] One paper on efficient code LLM inference with quantization and compilation-time optimization is accepted by FSE 2026.\n[2026.03] Hanzheng Dai’s doctoral symposium paper on “Automated Diagnosis and Testing of Game Compatibility Layers” is accepted by FSE 2026 Doctoral Symposium.\n[2026.03] Dr. Zhou Yang wins the MSR Outstanding Doctoral Research Award🏆! There is only one awardee this year.\n[2026.01] One paper (on automatically protecting critical software operations in TEE) is accepted by IEEE Transactions on Software Engineering!\n[2025.12] Dr. Zhou Yang wins the ACM SIGSOFT Outstanding Doctoral Dissertation Award🏆! There is only one award this year.\n[2025.11] Our paper on understanding user perceptions of AI coding assistants wins the Distinguished Paper Award🏆 at ASE 2025!\n[2025.09] Our paper wins the prestigious 2024 IEEE Computer Society Best Paper Award🏆! (1 out of 183)\n[2025.09] Dr. Zhou Yang officially joins the University of Alberta as an Assistant Professor and becomes an Amii Fellow."
-  },
-  {
-    "objectID": "index.html#welcome-to-goose",
-    "href": "index.html#welcome-to-goose",
-    "title": "U-A-Goose",
-    "section": "",
-    "text": "We are the U-a-Goose (GrOup Of Software Engineering) group at University of Alberta.\n\n\n\n  \n\n\n\n\nU-A-Goose studies trustworthy software engineering for the AI era, with a particular focus on large language models for code, AI security and privacy, and efficient and sustainable AI systems.\nOur projects sit at the intersection of software engineering and machine learning: robust coding assistants, evaluation and testing of AI-enabled systems, automated protection of critical software operations, specification-driven development, and emerging systems topics such as game compatibility layers.\n\n  Trustworthy Code LLMs\n  AI Security & Privacy\n  Software Engineering\n  Efficient AI Systems\n\n\n\n\n\nOur group is based in the Department of Computing Science at the University of Alberta. Prof. Zhou Yang is an Amii Fellow, and the lab is connected to the Amii research ecosystem through collaborative projects and Amii-supported initiatives, including the recently approved Amii RAP funding."
-  },
-  {
     "objectID": "publications.html",
     "href": "publications.html",
     "title": "Publications",
@@ -88,6 +25,69 @@
     "href": "team.html#graduate-students",
     "title": "Team",
     "section": "Graduate Students",
-    "text": "Graduate Students\n\n  \n    \n      \n      \n        PhD Student\n        Hanzheng (Hozier) Dai\n        \n          PhD Student, CS Department\n          Joined Jan 2026\n        \n        Research interests: Game Compatibility Layer\n        \n          Email\n          Homepage\n        \n      \n    \n\n    \n      \n      \n        MSc Student\n        Zixi Chai\n        \n          MSc Student, ECE Department\n          Joined Jan 2026\n        \n        Research interests: Specification-driven Development\n        \n          Email\n        \n      \n    \n\n    \n      \n      \n        Incoming\n        Ming Melvin Wang\n        \n          PhD Student, CS Department\n          Incoming (Sep 2026)\n        \n        Research interests: Multi-modal LLMs, Agentic AI, AI4SE & SE4AI\n        \n          Homepage\n        \n      \n    \n  \n\n  \n    \n      Join Us\n      Interested in Joining the Group?\n      \n        We welcome strong students interested in software engineering, trustworthy AI, and code LLM research.\n      \n    \n    \n      View openings"
+    "text": "Graduate Students\n\n  \n    \n      \n      \n        PhD Student\n        Hanzheng (Hozier) Dai\n        \n          PhD Student, CS Department\n          Joined Jan 2026\n        \n        Research interests: Game Compatibility Layer\n        \n          Email\n          Homepage\n        \n      \n    \n\n    \n      \n      \n        MSc Student\n        Zixi Chai\n        \n          MSc Student, ECE Department\n          Joined Jan 2026\n        \n        Research interests: Specification-driven Development\n        \n          Email\n        \n      \n    \n\n    \n      \n      \n        Incoming\n        Ming Melvin Wang\n        \n          PhD Student, CS Department\n          Incoming (Sep 2026)\n        \n        Research interests: Multi-modal LLMs, Agentic AI, AI4SE & SE4AI\n        \n          Homepage\n        \n      \n    \n\n    \n      \n      \n        Incoming\n        Wenjia Jiang\n        \n          PhD Student, CS Department\n          Incoming (Sep 2026)\n        \n        Research interests: LLMs, Multimodal Learning, and LLM-based Agents\n        \n          Homepage\n        \n      \n    \n  \n\n  \n    \n      Join Us\n      Interested in Joining the Group?\n      \n        We welcome strong students interested in software engineering, trustworthy AI, and code LLM research.\n      \n    \n    \n      View openings"
+  },
+  {
+    "objectID": "gallery.html",
+    "href": "gallery.html",
+    "title": "Gallery",
+    "section": "",
+    "text": "Caption 1\n\n\n\n\n\n\n\nCaption 2\n\n\n\n\n\n\n\nCaption 3"
+  },
+  {
+    "objectID": "gallery.html#lab-life",
+    "href": "gallery.html#lab-life",
+    "title": "Gallery",
+    "section": "",
+    "text": "Caption 1\n\n\n\n\n\n\n\nCaption 2\n\n\n\n\n\n\n\nCaption 3"
+  },
+  {
+    "objectID": "gallery.html#conferences-events",
+    "href": "gallery.html#conferences-events",
+    "title": "Gallery",
+    "section": "Conferences & Events",
+    "text": "Conferences & Events\n\n\n\n\n\nCaption 4\n\n\n\n\n\n\n\nCaption 5\n\n\n\n\n\n\n\nCaption 6"
+  },
+  {
+    "objectID": "vacancy.html",
+    "href": "vacancy.html",
+    "title": "Vacancy",
+    "section": "",
+    "text": "I am looking for self-motivated students to join our group. If you are passionate about software engineering and AI, please read on!\n\n\nGraduate Students (PhD / Master by Research)\nApplications for Fall 2026 admission are now closed. However, if you are a very strong candidate, we may make exceptions on a case-by-case basis — please contact me at zy25@ualberta.ca with your CV, transcript, and a brief description of your research interests.\n\n\n\nResearch Assistant Positions for UofA Students\nIf you are a current University of Alberta student (e.g., a Master’s student in the ECE Department, or an undergraduate) and are interested in joining our group as a research assistant, please send your CV and transcript to zy25@ualberta.ca.\n\n\n\nUndergraduate Individual Studies\nIf you are a UofA undergraduate interested in taking an individual study course (CMPUT 399 or CMPUT 499), please contact me at zy25@ualberta.ca with your CV and transcript.\n\n\n\n\n\n\n\nNoteScreening Process\n\n\n\nAll prospective research assistants and individual study students will go through a lightweight screening process, which typically involves:\n\nPaper reading — reading a few selected papers relevant to your intended research area\nPresentation — giving a short talk to demonstrate your understanding of the papers\nImplementation — reproducing or implementing some baseline methods\n\nDuring this process, we will evaluate each student’s academic merits, prior research experience, and how well their background aligns with the group’s research directions. This helps us assess your research potential and ensures a good mutual fit.\n\n\n\n\n\nContact\nFor all inquiries, please reach out to Prof. Zhou Yang."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "U-A-Goose",
+    "section": "",
+    "text": "We are the U-a-Goose (GrOup Of Software Engineering) group at University of Alberta.\n\n\n\n  \n\n\n\n\nU-A-Goose studies trustworthy software engineering for the AI era, with a particular focus on large language models for code, AI security and privacy, and efficient and sustainable AI systems.\nOur projects sit at the intersection of software engineering and machine learning: robust coding assistants, evaluation and testing of AI-enabled systems, automated protection of critical software operations, specification-driven development, and emerging systems topics such as game compatibility layers.\n\n  Trustworthy Code LLMs\n  AI Security & Privacy\n  Software Engineering\n  Efficient AI Systems\n\n\n\n\n\nOur group is based in the Department of Computing Science at the University of Alberta. Prof. Zhou Yang is an Amii Fellow, and the lab is connected to the Amii research ecosystem through collaborative projects and Amii-supported initiatives, including the recently approved Amii RAP funding.\n\n\n\n\n\n\n\n\n\n[2026.03] Dr. Zhou Yang’s Amii RAP funding (2026 to 2027) 💰 is approved, collaborating with Matt Taylor.\n[2026.03] One paper on efficient code LLM inference with quantization and compilation-time optimization is accepted by FSE 2026.\n[2026.03] Hanzheng Dai’s doctoral symposium paper on “Automated Diagnosis and Testing of Game Compatibility Layers” is accepted by FSE 2026 Doctoral Symposium.\n[2026.03] Dr. Zhou Yang wins the MSR Outstanding Doctoral Research Award🏆! There is only one awardee this year.\n[2026.01] One paper (on automatically protecting critical software operations in TEE) is accepted by IEEE Transactions on Software Engineering!\n[2025.12] Dr. Zhou Yang wins the ACM SIGSOFT Outstanding Doctoral Dissertation Award🏆! There is only one award this year.\n[2025.11] Our paper on understanding user perceptions of AI coding assistants wins the Distinguished Paper Award🏆 at ASE 2025!\n[2025.09] Our paper wins the prestigious 2024 IEEE Computer Society Best Paper Award🏆! (1 out of 183)\n[2025.09] Dr. Zhou Yang officially joins the University of Alberta as an Assistant Professor and becomes an Amii Fellow."
+  },
+  {
+    "objectID": "index.html#welcome-to-goose",
+    "href": "index.html#welcome-to-goose",
+    "title": "U-A-Goose",
+    "section": "",
+    "text": "We are the U-a-Goose (GrOup Of Software Engineering) group at University of Alberta.\n\n\n\n  \n\n\n\n\nU-A-Goose studies trustworthy software engineering for the AI era, with a particular focus on large language models for code, AI security and privacy, and efficient and sustainable AI systems.\nOur projects sit at the intersection of software engineering and machine learning: robust coding assistants, evaluation and testing of AI-enabled systems, automated protection of critical software operations, specification-driven development, and emerging systems topics such as game compatibility layers.\n\n  Trustworthy Code LLMs\n  AI Security & Privacy\n  Software Engineering\n  Efficient AI Systems\n\n\n\n\n\nOur group is based in the Department of Computing Science at the University of Alberta. Prof. Zhou Yang is an Amii Fellow, and the lab is connected to the Amii research ecosystem through collaborative projects and Amii-supported initiatives, including the recently approved Amii RAP funding."
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "Our research focuses on [broad area]. We are particularly interested in:\n\n[Research theme 1]\n[Research theme 2]\n[Research theme 3]"
+  },
+  {
+    "objectID": "research.html#overview",
+    "href": "research.html#overview",
+    "title": "Research",
+    "section": "",
+    "text": "Our research focuses on [broad area]. We are particularly interested in:\n\n[Research theme 1]\n[Research theme 2]\n[Research theme 3]"
+  },
+  {
+    "objectID": "research.html#projects",
+    "href": "research.html#projects",
+    "title": "Research",
+    "section": "Projects",
+    "text": "Projects\n\nProject Title 1\n\n[Description of the project, goals, methods, and outcomes.]\nCollaborators: [Names / Institutions]\nFunding: [Grant / Agency]\n\n\n\nProject Title 2\n[Description of the project, goals, methods, and outcomes.]\nCollaborators: [Names / Institutions]\nFunding: [Grant / Agency]"
   }
 ]
