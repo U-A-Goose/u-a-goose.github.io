@@ -132,7 +132,7 @@ ul.task-list li input[type="checkbox"] {
 <div class="lab-page-container">
 <section id="welcome-to-goose" class="level2 lab-main-content">
 <h2 class="anchored" data-anchor-id="welcome-to-goose">Welcome to Goose</h2>
-<p>We are the <strong>U-a-Goose</strong> (GrOup Of Software Engineering) group at <a href="https://www.ualberta.ca/en/index.html">University of Alberta</a>.</p>
+<p>We are the <strong>U-a-Goose</strong> <span class="goose-acronym">(<span class="goose-letter">G</span>r<span class="goose-letter">O</span>up <span class="goose-letter">O</span>f <span class="goose-letter">S</span>oftware <span class="goose-letter">E</span>ngineering)</span> group at <a href="https://www.ualberta.ca/en/index.html">University of Alberta</a>.</p>
 <div class="lab-intro-grid">
 <div class="lab-image-card">
 <div class="lab-image">
@@ -191,6 +191,63 @@ ICSE, FSE, ASE, ISSTA · IJCAI, AAAI · IEEE S&P, ESORICS
 </div>
 </section>
 </div>
+<section class="home-bento-band">
+  <div class="home-bento-grid">
+    <a class="home-bento-card home-bento-link" href="publications.html">
+      <span class="home-bento-eyebrow">Research</span>
+      <h3 class="anchored">Publications</h3>
+      <p>
+        Explore our work across venues including <strong>ICSE</strong>, <strong>FSE</strong>, <strong>ASE</strong>, <strong>TOSEM</strong>, and <strong>TSE</strong>.
+      </p>
+      <span class="home-bento-cta">Browse papers →</span>
+    </a>
+
+    <a class="home-bento-card home-bento-link" href="team.html">
+      <span class="home-bento-eyebrow">People</span>
+      <h3 class="anchored">Group Members</h3>
+      <p>
+        Meet Prof. Zhou Yang and our growing team of graduate researchers working on software engineering, AI systems, and trustworthy code LLMs.
+      </p>
+      <span class="home-bento-cta">Meet the team →</span>
+    </a>
+
+    <a class="home-bento-card home-bento-link" href="vacancy.html">
+      <span class="home-bento-eyebrow">Join Us</span>
+      <h3 class="anchored">Vacancy</h3>
+      <p>
+        We welcome strong applicants interested in PhD, research assistant, and undergraduate individual study opportunities in software engineering and AI.
+      </p>
+      <span class="home-bento-cta">See openings →</span>
+    </a>
+
+    <section class="home-bento-card home-bento-highlight">
+      <span class="home-bento-eyebrow">2026 Highlights</span>
+      <h3 class="anchored">Join Our Community Events</h3>
+      <p>
+        We are helping build and support research communities around software engineering, human-centered AI, and trustworthy code LLMs. We encourage researchers and students to participate.
+      </p>
+
+      <div class="event-stack">
+        <a class="event-pill" href="https://www.cser.ca/2026s/" target="_blank" rel="noopener noreferrer">
+          <strong>CSER 2026 Spring</strong>
+          <span>May 23-24, 2026 · University of Alberta, Edmonton</span>
+        </a>
+        <a class="event-pill" href="https://humanai4se.github.io/" target="_blank" rel="noopener noreferrer">
+          <strong>HumanAISE 2026</strong>
+          <span>2nd Workshop on Human-Centered AI for Software Engineering · Co-located with FSE 2026 in Montreal</span>
+        </a>
+        <a class="event-pill" href="https://poisonedchalice.github.io/" target="_blank" rel="noopener noreferrer">
+          <strong>Poisoned Chalice Competition 2026</strong>
+          <span>Co-located with FSE 2026 · Competition day: July 6, 2026 · Montreal</span>
+        </a>
+      </div>
+
+      <p class="home-bento-note">
+        Please check the official pages above for the latest registration, program, and participation details.
+      </p>
+    </section>
+  </div>
+</section>
 <section class="funding-strip">
   <h3 class="anchored">Funding &amp; Institutional Support</h3>
   <p>
@@ -221,11 +278,13 @@ ICSE, FSE, ASE, ISSTA · IJCAI, AAAI · IEEE S&P, ESORICS
   gap: 2rem;
   align-items: flex-start;
   flex-wrap: wrap;
+  margin-bottom: 2rem;
 }
 
 .lab-main-content {
-  flex: 2;
-  min-width: 300px;
+  flex: 1 1 0;
+  min-width: 0;
+  width: 100%;
 }
 
 .lab-intro-grid {
@@ -243,6 +302,7 @@ ICSE, FSE, ASE, ISSTA · IJCAI, AAAI · IEEE S&P, ESORICS
   border: 1px solid #e2e8f0;
   border-radius: 18px;
   box-shadow: 0 14px 30px rgba(15, 23, 42, 0.08);
+  min-width: 0;
 }
 
 .lab-image-card {
@@ -286,14 +346,141 @@ ICSE, FSE, ASE, ISSTA · IJCAI, AAAI · IEEE S&P, ESORICS
   line-height: 1;
 }
 
+.goose-acronym {
+  white-space: nowrap;
+}
+
+.goose-letter {
+  display: inline-block;
+  font-size: 1.08em;
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 0.1em;
+  text-decoration-thickness: 0.08em;
+}
+
 .lab-affiliation-card {
   margin-bottom: 1rem;
+}
+
+.home-bento-band {
+  width: 100%;
+  margin: 0 0 2.2rem;
+}
+
+.home-bento-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.home-bento-card {
+  border-radius: 18px;
+  border: 1px solid #dbe4f0;
+  background: linear-gradient(180deg, #ffffff 0%, #f8fbff 100%);
+  box-shadow: 0 14px 32px rgba(15, 23, 42, 0.08);
+  padding: 1.3rem 1.35rem;
+}
+
+.home-bento-link {
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.home-bento-link:hover {
+  transform: translateY(-3px);
+  border-color: #93c5fd;
+  box-shadow: 0 16px 28px rgba(37, 99, 235, 0.12);
+}
+
+.home-bento-highlight {
+  grid-column: 1 / -1;
+  background:
+    radial-gradient(circle at top right, rgba(96, 165, 250, 0.16), transparent 28%),
+    linear-gradient(135deg, #f7fbff 0%, #eef5ff 100%);
+}
+
+.home-bento-eyebrow {
+  display: inline-flex;
+  margin-bottom: 0.65rem;
+  padding: 0.34rem 0.62rem;
+  border-radius: 999px;
+  background: #e8f1ff;
+  color: #1d4ed8;
+  font-size: 0.77rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.home-bento-card h3 {
+  margin: 0 0 0.6rem;
+  font-size: 1.15rem;
+  font-weight: 700;
+}
+
+.home-bento-card p {
+  margin: 0;
+  color: #475569;
+}
+
+.home-bento-cta {
+  display: inline-block;
+  margin-top: 1.1rem;
+  font-weight: 700;
+  color: #2563eb;
+}
+
+.event-stack {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.9rem;
+  margin-top: 1.2rem;
+}
+
+.event-pill {
+  display: flex;
+  min-height: 128px;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 0.7rem;
+  padding: 1rem;
+  border-radius: 16px;
+  border: 1px solid #d5e2f0;
+  background: rgba(255, 255, 255, 0.9);
+  color: inherit;
+  text-decoration: none;
+  transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.event-pill:hover {
+  transform: translateY(-3px);
+  border-color: #60a5fa;
+  box-shadow: 0 12px 24px rgba(37, 99, 235, 0.12);
+}
+
+.event-pill strong {
+  color: #0f172a;
+  font-size: 1rem;
+}
+
+.event-pill span {
+  color: #475569;
+  font-size: 0.92rem;
+  line-height: 1.5;
+}
+
+.home-bento-note {
+  margin-top: 1rem !important;
+  font-size: 0.92rem;
 }
 
 .lab-news-sidebar {
   flex: 0 1 420px;
   min-width: 300px;
   max-width: 420px;
+  width: 100%;
   background-color: #f8fafc;
   border-radius: 10px;
   padding: 1.25rem;
@@ -396,12 +583,30 @@ ICSE, FSE, ASE, ISSTA · IJCAI, AAAI · IEEE S&P, ESORICS
   display: block;
 }
 
-@media (max-width: 768px) {
-  .lab-page-container {
-    flex-direction: column;
-  }
+@media (max-width: 1280px) {
   .lab-intro-grid {
     grid-template-columns: 1fr;
+  }
+  .home-bento-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .home-bento-highlight {
+    grid-column: 1 / -1;
+  }
+}
+
+@media (max-width: 768px) {
+  .home-bento-grid {
+    grid-template-columns: 1fr;
+  }
+  .event-stack {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 1100px) {
+  .lab-page-container {
+    flex-direction: column;
   }
   .lab-news-sidebar {
     max-width: 100%;
