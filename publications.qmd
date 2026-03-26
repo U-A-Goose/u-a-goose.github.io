@@ -1,9 +1,11 @@
 ---
 title: "Publications"
 toc: false
+page-layout: full
 ---
 
 ```{=html}
+<section class="pub-shell">
 <div class="pub-list">
 
 <div class="pub-year-group">
@@ -348,4 +350,5 @@ toc: false
 </div>
 
 </div>
+</section>
 ```

@@ -31,21 +31,25 @@
 }
 
 // Publications page - year on the left
+.pub-shell {
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
 .pub-list {
-  margin-top: 1.5rem;
+  margin-top: 0;
 }
 
 .pub-year-group {
   display: flex !important;
   flex-direction: row !important;
   gap: 2rem;
-  margin-bottom: 1.5rem;
-  padding-bottom: 1.5rem;
-  border-bottom: 1px solid #e2e8f0;
-}
-
-.pub-year-group:last-child {
-  border-bottom: none;
+  margin-bottom: 1.2rem;
+  padding: 1.35rem 1.45rem;
+  border: 1px solid #dbe4f0;
+  border-radius: 22px;
+  background: linear-gradient(180deg, #ffffff 0%, #f8fbff 100%);
+  box-shadow: 0 14px 28px rgba(15, 23, 42, 0.06);
 }
 
 .pub-year {
@@ -64,8 +68,12 @@
 }
 
 .pub-entry {
-  margin-bottom: 1rem;
-  line-height: 1.6;
+  margin-bottom: 0.9rem;
+  padding: 0.9rem 1rem;
+  border-radius: 14px;
+  border: 1px solid #e4edf6;
+  background: rgba(255, 255, 255, 0.82);
+  line-height: 1.65;
   font-size: 0.95rem;
 }
 
@@ -214,6 +222,11 @@
   font-weight: 800;
 }
 
+.team-member-body h3 {
+  font-size: 1.3rem;
+  line-height: 1.25;
+}
+
 .team-role {
   margin: 0 0 0.95rem;
   color: #2563eb;
@@ -263,6 +276,7 @@
 
 .team-member-photo {
   aspect-ratio: 4 / 3;
+  max-height: 320px;
 }
 
 .team-member-body,
@@ -277,10 +291,12 @@
   gap: 1.25rem;
 }
 
+
 @media (max-width: 600px) {
   .pub-year-group {
     flex-direction: column !important;
     gap: 0.5rem;
+    padding: 1.15rem;
   }
 
   .pub-year {
@@ -322,5 +338,11 @@
 @media (max-width: 768px) {
   .team-member-grid {
     grid-template-columns: 1fr;
+  }
+
+  .team-member-card {
+    width: 100%;
+    max-width: 460px;
+    justify-self: center;
   }
 }

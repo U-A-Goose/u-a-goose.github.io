@@ -84,6 +84,22 @@ page-layout: full
         </p>
       </div>
     </article>
+
+    <article class="team-panel team-member-card">
+      <img src="assets/images/protrait_wenjia.jpg" alt="Portrait of Wenjia Jiang" class="team-member-photo">
+      <div class="team-member-body">
+        <span class="team-eyebrow">Incoming</span>
+        <h3>Wenjia Jiang</h3>
+        <p class="team-role">
+          <span>PhD Student, CS Department</span>
+          <span>Incoming (Sep 2026)</span>
+        </p>
+        <p>Research interests: LLMs, Multimodal Learning, and LLM-based Agents</p>
+        <p class="team-links">
+          <a href="https://jwj1342.github.io/">Homepage</a>
+        </p>
+      </div>
+    </article>
   </div>
 
   <div class="team-panel team-join-card">
