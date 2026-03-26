@@ -1,80 +1,102 @@
 ---
 title: "Team"
+page-layout: full
 ---
 
 ## Principal Investigator
 
-::: {.grid style="align-items: start;"}
-::: {.g-col-3}
-![](assets/images/protrait_zy.jpeg)
-:::
-::: {.g-col-9}
-### Prof. Zhou Yang
-**Assistant Professor at the University of Alberta, Fellow at Amii (Alberta Machine Intelligence Institute)**
-
-<div style="text-align: justify;">
-Bio: Zhou Yang is an Assistant Professor in the Department of Computing Science at the University of Alberta and an Amii Fellow. He completed his Ph.D. at Singapore Management University in December 2024, after earning an MSc from University College London. He previously served as a senior research engineer at the Centre for Research on Intelligent Software Engineering. He is recognized for establishing scientific and practical foundations of trustworthy codeLLMs, integrating robustness, security, privacy, and ecosystem insights to drive safer AI adoption in software engineering. Zhou has won with multiple prestigious awards, including 2026 MSR Outstanding Doctoral Research Award, 2025 ACM SIGSOFT Outstanding Doctoral Dissertation Award, 2024 IEEE Computer Society Best Paper Award, ACM Distinguished Paper Awards at ASE 2025 and ISSTA 2024, ACSAC Honorable Mention Award, and the Gold Medal in the ACM SRC at ICSE 2024. He serves on program and organizing committees for top software engineering conferences, collaborates with researchers across multiple continents, and is actively building a research group focused on large language models for code, AI security and privacy, and sustainable AI systems.
-</div>
-
-
-
-[📧 zy25@ualberta.ca](mailto:zy25@ualberta.ca) | [🔗 Google Scholar](https://scholar.google.com/citations?user=4oWBhPsAAAAJ&hl=en) | [🌐 Homepage](https://homepage.zhouyang.me/)
-:::
-:::
-
-
-
----
+```{=html}
+<section class="team-shell">
+  <div class="team-panel team-pi-card">
+    <div class="team-pi-photo-wrap">
+      <img src="assets/images/protrait_zy.jpeg" alt="Portrait of Prof. Zhou Yang" class="team-pi-photo">
+    </div>
+    <div class="team-pi-body">
+      <span class="team-eyebrow">Principal Investigator</span>
+      <h3>Prof. Zhou Yang</h3>
+      <p class="team-role">Assistant Professor at the University of Alberta · Amii Fellow</p>
+      <p>
+        Zhou Yang is an Assistant Professor in the Department of Computing Science at the University of Alberta and an Amii Fellow. He completed his Ph.D. at Singapore Management University in December 2024, after earning an MSc from University College London. He previously served as a senior research engineer at the Centre for Research on Intelligent Software Engineering.
+      </p>
+      <p>
+        His research establishes scientific and practical foundations for trustworthy code LLMs, integrating robustness, security, privacy, ecosystem understanding, and efficiency to support safer AI adoption in software engineering. He has received multiple major awards, including the 2026 MSR Outstanding Doctoral Research Award, the 2025 ACM SIGSOFT Outstanding Doctoral Dissertation Award, and the 2024 IEEE Computer Society Best Paper Award.
+      </p>
+      <p class="team-links">
+        <a href="mailto:zy25@ualberta.ca">Email</a>
+        <a href="https://scholar.google.com/citations?user=4oWBhPsAAAAJ&hl=en">Google Scholar</a>
+        <a href="https://homepage.zhouyang.me/">Homepage</a>
+      </p>
+    </div>
+  </div>
+</section>
+```
 
 ## Graduate Students
 
-::: {.grid style="align-items: start;"}
-::: {.g-col-3}
-![](assets/images/protrait_hz.jpg)
-:::
-::: {.g-col-9}
-### Hanzheng (Hozier) Dai
-**PhD Student** · Joined Jan 2026
+```{=html}
+<section class="team-shell">
+  <div class="team-member-grid">
+    <article class="team-panel team-member-card">
+      <img src="assets/images/protrait_hz.jpg" alt="Portrait of Hanzheng Dai" class="team-member-photo">
+      <div class="team-member-body">
+        <span class="team-eyebrow">PhD Student</span>
+        <h3>Hanzheng (Hozier) Dai</h3>
+        <p class="team-role">
+          <span>PhD Student, CS Department</span>
+          <span>Joined Jan 2026</span>
+        </p>
+        <p>Research interests: Game Compatibility Layer</p>
+        <p class="team-links">
+          <a href="mailto:hanzhen3@ualberta.ca">Email</a>
+          <a href="https://hozierddd.github.io/">Homepage</a>
+        </p>
+      </div>
+    </article>
 
-Research interests: Game Compatibility Layer
+    <article class="team-panel team-member-card">
+      <img src="assets/images/protrait_zixi.jpg" alt="Portrait of Zixi Chai" class="team-member-photo">
+      <div class="team-member-body">
+        <span class="team-eyebrow">MSc Student</span>
+        <h3>Zixi Chai</h3>
+        <p class="team-role">
+          <span>MSc Student, ECE Department</span>
+          <span>Joined Jan 2026</span>
+        </p>
+        <p>Research interests: Specification-driven Development</p>
+        <p class="team-links">
+          <a href="mailto:zchai3@ualberta.ca">Email</a>
+        </p>
+      </div>
+    </article>
 
-[📧 hanzhen3@ualberta.ca](mailto:hanzhen3@ualberta.ca) | [🌐 Homepage](https://hozierddd.github.io/)
-:::
-:::
+    <article class="team-panel team-member-card">
+      <img src="assets/images/protrait_melvin.png" alt="Portrait of Ming Melvin Wang" class="team-member-photo">
+      <div class="team-member-body">
+        <span class="team-eyebrow">Incoming</span>
+        <h3>Ming Melvin Wang</h3>
+        <p class="team-role">
+          <span>PhD Student, CS Department</span>
+          <span>Incoming (Sep 2026)</span>
+        </p>
+        <p>Research interests: Multi-modal LLMs, Agentic AI, AI4SE &amp; SE4AI</p>
+        <p class="team-links">
+          <a href="https://melvin-king.github.io/">Homepage</a>
+        </p>
+      </div>
+    </article>
+  </div>
 
-::: {.grid style="align-items: start;"}
-::: {.g-col-3}
-![](assets/images/protrait_zixi.jpg)
-:::
-::: {.g-col-9}
-### Zixi Chai
-**MSc by Course, ECE Department** · Joined Jan 2026
-
-Research interests: Specification-driven Development
-
-[📧 zchai3@ualberta.ca](mailto:zchai3@ualberta.ca)
-:::
-:::
-
-<!--
----
-
-## Alumni
-
-| Name | Degree | Year | Current Position |
-|------|--------|------|-----------------|
-| [Name] | PhD | 202X | [Position, Institution] |
--->
-
-<style>
-.grid .g-col-9 h3:first-child {
-  margin-top: 0;
-  padding-top: 0;
-}
-.grid .g-col-3 p {
-  margin-bottom: 0;
-}
-#graduate-students .grid {
-  margin-bottom: 2rem;
-}
-</style>
+  <div class="team-panel team-join-card">
+    <div>
+      <span class="team-eyebrow">Join Us</span>
+      <h3>Interested in Joining the Group?</h3>
+      <p>
+        We welcome strong students interested in software engineering, trustworthy AI, and code LLM research.
+      </p>
+    </div>
+    <p class="team-links">
+      <a href="vacancy.html">View openings</a>
+    </p>
+  </div>
+</section>
+```

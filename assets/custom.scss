@@ -141,6 +141,142 @@
   text-align: center;
 }
 
+.team-shell {
+  margin: 0 auto 1.75rem;
+  max-width: 1180px;
+}
+
+.team-panel {
+  min-width: 0;
+  border: 1px solid #dbe4f0;
+  border-radius: 22px;
+  background:
+    radial-gradient(circle at top right, rgba(96, 165, 250, 0.12), transparent 26%),
+    linear-gradient(180deg, #ffffff 0%, #f8fbff 100%);
+  box-shadow: 0 16px 34px rgba(15, 23, 42, 0.08);
+}
+
+.team-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  margin-bottom: 0.75rem;
+  padding: 0.38rem 0.68rem;
+  border-radius: 999px;
+  background: #e8f1ff;
+  color: #1d4ed8;
+  font-size: 0.76rem;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.team-pi-card {
+  display: grid;
+  grid-template-columns: minmax(180px, 220px) minmax(0, 1fr);
+  gap: 1.4rem;
+  padding: 1.25rem;
+  margin-bottom: 2rem;
+}
+
+.team-pi-photo-wrap {
+  width: 100%;
+  max-width: 220px;
+  justify-self: center;
+}
+
+.team-pi-photo,
+.team-member-photo {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+  object-position: center top;
+  border-radius: 18px;
+  background: #f8fafc;
+}
+
+.team-pi-photo {
+  height: 100%;
+  min-height: 220px;
+  max-height: 280px;
+  aspect-ratio: 1 / 1.1;
+}
+
+.team-pi-body,
+.team-member-body {
+  min-width: 0;
+}
+
+.team-pi-body h3,
+.team-member-body h3,
+.team-join-card h3 {
+  margin: 0 0 0.35rem;
+  font-size: 1.55rem;
+  font-weight: 800;
+}
+
+.team-role {
+  margin: 0 0 0.95rem;
+  color: #2563eb;
+  font-weight: 700;
+}
+
+.team-role span {
+  display: block;
+}
+
+.team-pi-body p,
+.team-member-body p,
+.team-join-card p {
+  color: #475569;
+  line-height: 1.75;
+}
+
+.team-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem 1rem;
+  margin: 0.9rem 0 0;
+}
+
+.team-links a {
+  color: #2563eb;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.team-links a:hover {
+  text-decoration: underline;
+}
+
+.team-member-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.team-member-card {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.team-member-photo {
+  aspect-ratio: 4 / 3;
+}
+
+.team-member-body,
+.team-join-card {
+  padding: 1.2rem 1.25rem 1.3rem;
+}
+
+.team-join-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.25rem;
+}
+
 @media (max-width: 600px) {
   .pub-year-group {
     flex-direction: column !important;
@@ -158,5 +294,33 @@
 
   .funder-card {
     min-height: 132px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .team-pi-card {
+    grid-template-columns: 1fr;
+  }
+
+  .team-pi-photo {
+    min-height: 0;
+    max-height: 520px;
+  }
+
+  .team-join-card {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 1280px) {
+  .team-member-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 768px) {
+  .team-member-grid {
+    grid-template-columns: 1fr;
   }
 }
