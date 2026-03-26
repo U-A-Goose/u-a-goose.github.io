@@ -46,8 +46,15 @@ ICSE, FSE, ASE, ISSTA · IJCAI, AAAI · IEEE S&P, ESORICS
 ### News
 
 ::: {.news-list}
-- <span class="news-date">[2026.03]</span>  Dr. Zhou Yang win the MSR Outstanding Doctoral Reserch Award🏆! There is only one awardee this year.
+- <span class="news-date">[2026.03]</span> Dr. Zhou Yang's Amii RAP funding (2026 to 2027) 💰 is approved, collaborating with [Matt Taylor](https://drmatttaylor.net/).
+- <span class="news-date">[2026.03]</span> One paper on efficient code LLM inference with quantization and compilation-time optimization is accepted by **FSE 2026**.
+- <span class="news-date">[2026.03]</span> Hanzheng Dai's doctoral symposium paper on "Automated Diagnosis and Testing of Game Compatibility Layers" is accepted by **FSE 2026 Doctoral Symposium**.
+- <span class="news-date">[2026.03]</span> Dr. Zhou Yang wins the **MSR Outstanding Doctoral Research Award**🏆! There is only one awardee this year.
 - <span class="news-date">[2026.01]</span> One paper (on automatically protecting critical software operations in TEE) is accepted by **IEEE Transactions on Software Engineering**!
+- <span class="news-date">[2025.12]</span> Dr. Zhou Yang wins the **ACM SIGSOFT Outstanding Doctoral Dissertation Award**🏆! There is only one award this year.
+- <span class="news-date">[2025.11]</span> Our paper on understanding user perceptions of AI coding assistants wins the **Distinguished Paper Award**🏆 at **ASE 2025**!
+- <span class="news-date">[2025.09]</span> Our paper wins the prestigious **2024 IEEE Computer Society Best Paper Award**🏆! (1 out of 183)
+- <span class="news-date">[2025.09]</span> Dr. Zhou Yang officially joins the University of Alberta as an Assistant Professor and becomes an **Amii Fellow**.
 :::
 
 :::
@@ -68,15 +75,26 @@ ICSE, FSE, ASE, ISSTA · IJCAI, AAAI · IEEE S&P, ESORICS
 }
 
 .lab-news-sidebar {
-  flex: 1;
-  min-width: 240px;
-  max-width: 320px;
+  flex: 0 1 380px;
+  min-width: 280px;
+  max-width: 380px;
   background-color: #f8fafc;
   border-radius: 10px;
   padding: 1.25rem;
   border: 1px solid #e2e8f0;
   position: sticky;
   top: 80px;
+  max-height: calc(100vh - 100px);
+  display: flex;
+  flex-direction: column;
+}
+
+.news-list {
+  flex: 1 1 auto;
+  min-height: 0;
+  overflow-y: auto;
+  padding-right: 0.35rem;
+  scrollbar-gutter: stable;
 }
 
 .news-date {
@@ -90,6 +108,19 @@ ICSE, FSE, ASE, ISSTA · IJCAI, AAAI · IEEE S&P, ESORICS
   border-bottom: 2px solid #2563eb;
   padding-bottom: 0.5rem;
   margin-bottom: 1rem;
+}
+
+.news-list::-webkit-scrollbar {
+  width: 8px;
+}
+
+.news-list::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 999px;
+}
+
+.news-list::-webkit-scrollbar-track {
+  background: transparent;
 }
 
 
@@ -157,6 +188,11 @@ ICSE, FSE, ASE, ISSTA · IJCAI, AAAI · IEEE S&P, ESORICS
   .lab-news-sidebar {
     max-width: 100%;
     position: static;
+    max-height: none;
+  }
+  .news-list {
+    overflow: visible;
+    padding-right: 0;
   }
 }
 </style>

@@ -44,6 +44,16 @@ toc: false
       Chenyu Wang, Zhou Yang, Ze Shi Li, Daniela Damian, David Lo.<br>
       <i>EASE 2026</i>.
     </div>
+    <div class="pub-entry">
+      <b>Towards Efficient Code LLM Inference with Quantization and Compilation-Time Optimization.</b><br>
+      Jieke Shi, Junda He, Zhou Yang, Chengran Yang, Mykhailo Klymenko, Thong Hoang, Sherry (Xiwei) Xu, Zhenchang Xing, David Lo.<br>
+      <i>FSE 2026</i>.
+    </div>
+    <div class="pub-entry">
+      <b>Automated Diagnosis and Testing of Game Compatibility Layers.</b><br>
+      Hanzheng Dai.<br>
+      <i>FSE 2026 Doctoral Symposium</i>.
+    </div>
   </div>
 </div>
 
