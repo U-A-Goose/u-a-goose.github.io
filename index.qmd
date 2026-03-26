@@ -61,6 +61,33 @@ ICSE, FSE, ASE, ISSTA · IJCAI, AAAI · IEEE S&P, ESORICS
 
 ::::
 
+```{=html}
+<section class="funding-strip">
+  <h3>Funding &amp; Institutional Support</h3>
+  <p>
+    Our work is supported by research funders and institutional partners including the following organizations.
+  </p>
+  <div class="funding-grid">
+    <a class="funder-card" href="https://www.amii.ca/" target="_blank" rel="noopener noreferrer">
+      <img src="assets/images/logos/amii.png" alt="Amii" class="funder-logo funder-logo-icon">
+      <span class="funder-name">Amii</span>
+    </a>
+    <a class="funder-card" href="https://cifar.ca/" target="_blank" rel="noopener noreferrer">
+      <img src="assets/images/logos/cifar.svg" alt="CIFAR" class="funder-logo">
+      <span class="funder-name">CIFAR</span>
+    </a>
+    <a class="funder-card" href="https://www.ualberta.ca/en/index.html" target="_blank" rel="noopener noreferrer">
+      <img src="assets/images/logos/ualberta.png" alt="University of Alberta" class="funder-logo">
+      <span class="funder-name">University of Alberta</span>
+    </a>
+    <a class="funder-card" href="https://nserc-crsng.canada.ca/en" target="_blank" rel="noopener noreferrer">
+      <img src="assets/images/logos/nserc.svg" alt="NSERC" class="funder-logo">
+      <span class="funder-name">NSERC</span>
+    </a>
+  </div>
+</section>
+```
+
 <style>
 .lab-page-container {
   display: flex;
