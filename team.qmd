@@ -31,7 +31,7 @@ page-layout: full
 </section>
 ```
 
-## Graduate Students
+## PhD Students
 
 ```{=html}
 <section class="team-shell">
@@ -49,22 +49,6 @@ page-layout: full
         <p class="team-links">
           <a href="mailto:hanzhen3@ualberta.ca">Email</a>
           <a href="https://hozierddd.github.io/">Homepage</a>
-        </p>
-      </div>
-    </article>
-
-    <article class="team-panel team-member-card">
-      <img src="assets/images/protrait_zixi.jpg" alt="Portrait of Zixi Chai" class="team-member-photo">
-      <div class="team-member-body">
-        <span class="team-eyebrow">MSc Student</span>
-        <h3>Zixi Chai</h3>
-        <p class="team-role">
-          <span>MSc Student, ECE Department</span>
-          <span>Joined Jan 2026</span>
-        </p>
-        <p>Research interests: Specification-driven Development</p>
-        <p class="team-links">
-          <a href="mailto:zchai3@ualberta.ca">Email</a>
         </p>
       </div>
     </article>
@@ -102,12 +86,12 @@ page-layout: full
     </article>
 
     <article class="team-panel team-member-card">
-      <img src="assets/images/goose_2.png" alt="Goose avatar placeholder for Xingan Gao" class="team-member-photo team-member-photo--avatar">
+      <img src="assets/images/protrait_gh.jpg" alt="Portrait of Geng He" class="team-member-photo">
       <div class="team-member-body">
-        <span class="team-eyebrow">Visiting Student</span>
-        <h3>Xingan Gao</h3>
+        <span class="team-eyebrow">Incoming</span>
+        <h3>Geng He</h3>
         <p class="team-role">
-          <span>Visiting Student, Yangzhou University</span>
+          <span>PhD Student, CS Department</span>
           <span>Incoming (Sep 2026)</span>
         </p>
       </div>
@@ -120,6 +104,65 @@ page-layout: full
         <h3>Jingfeng Jiang</h3>
         <p class="team-role">
           <span>PhD Student, CS Department</span>
+          <span>Incoming (Sep 2026)</span>
+        </p>
+      </div>
+    </article>
+  </div>
+</section>
+```
+
+## MSc Students
+
+```{=html}
+<section class="team-shell">
+  <div class="team-member-grid">
+    <article class="team-panel team-member-card">
+      <img src="assets/images/protrait_tanzim.png" alt="Portrait of Tanzim Hossain Romel" class="team-member-photo">
+      <div class="team-member-body">
+        <span class="team-eyebrow">Incoming</span>
+        <h3>Tanzim Hossain Romel</h3>
+        <p class="team-role">
+          <span>MSc by Thesis, CS Department</span>
+          <span>Incoming (Sep 2026)</span>
+        </p>
+        <p class="team-links">
+          <a href="https://tanzimhromel.com">Homepage</a>
+        </p>
+      </div>
+    </article>
+  </div>
+</section>
+```
+
+## Visitors & RAs
+
+```{=html}
+<section class="team-shell">
+  <div class="team-member-grid">
+    <article class="team-panel team-member-card">
+      <img src="assets/images/protrait_zixi.jpg" alt="Portrait of Zixi Chai" class="team-member-photo">
+      <div class="team-member-body">
+        <span class="team-eyebrow">MSc by Course</span>
+        <h3>Zixi Chai</h3>
+        <p class="team-role">
+          <span>MSc by Course, ECE Department</span>
+          <span>Joined Jan 2026</span>
+        </p>
+        <p>Research interests: Specification-driven Development</p>
+        <p class="team-links">
+          <a href="mailto:zchai3@ualberta.ca">Email</a>
+        </p>
+      </div>
+    </article>
+
+    <article class="team-panel team-member-card">
+      <img src="assets/images/goose_2.png" alt="Goose avatar placeholder for Xingan Gao" class="team-member-photo team-member-photo--avatar">
+      <div class="team-member-body">
+        <span class="team-eyebrow">Visiting Student</span>
+        <h3>Xingan Gao</h3>
+        <p class="team-role">
+          <span>Visiting Student, Yangzhou University</span>
           <span>Incoming (Sep 2026)</span>
         </p>
       </div>
