@@ -2,3 +2,4 @@
 /_site/
 **/*.quarto_ipynb
 assets/.DS_Store
+assets/images/.DS_Store

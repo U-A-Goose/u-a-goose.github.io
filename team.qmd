@@ -54,7 +54,7 @@ page-layout: full
     </article>
 
     <article class="team-panel team-member-card">
-      <img src="assets/images/protrait_melvin.png" alt="Portrait of Ming Melvin Wang" class="team-member-photo">
+      <img src="assets/images/protrait_melvin.jpg" alt="Portrait of Ming Melvin Wang" class="team-member-photo">
       <div class="team-member-body">
         <span class="team-eyebrow">Incoming</span>
         <h3>Ming Melvin Wang</h3>
@@ -98,7 +98,7 @@ page-layout: full
     </article>
 
     <article class="team-panel team-member-card">
-      <img src="assets/images/goose_2.png" alt="Goose avatar placeholder for Jingfeng Jiang" class="team-member-photo team-member-photo--avatar">
+      <img src="assets/images/protrait_hhf.jpg" alt="Portrait of Jingfeng Jiang" class="team-member-photo">
       <div class="team-member-body">
         <span class="team-eyebrow">Incoming</span>
         <h3>Jingfeng Jiang</h3>
