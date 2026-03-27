@@ -45,7 +45,7 @@ page-layout: full
           <span>PhD Student, CS Department</span>
           <span>Joined Jan 2026</span>
         </p>
-        <p>Research interests: Game Compatibility Layer</p>
+
         <p class="team-links">
           <a href="mailto:hanzhen3@ualberta.ca">Email</a>
           <a href="https://hozierddd.github.io/">Homepage</a>
@@ -62,7 +62,7 @@ page-layout: full
           <span>PhD Student, CS Department</span>
           <span>Incoming (Sep 2026)</span>
         </p>
-        <p>Research interests: Multi-modal LLMs, Agentic AI, AI4SE &amp; SE4AI</p>
+
         <p class="team-links">
           <a href="https://melvin-king.github.io/">Homepage</a>
         </p>
@@ -78,7 +78,7 @@ page-layout: full
           <span>PhD Student, CS Department</span>
           <span>Incoming (Sep 2026)</span>
         </p>
-        <p>Research interests: LLMs, Multimodal Learning, and LLM-based Agents</p>
+
         <p class="team-links">
           <a href="https://jwj1342.github.io/">Homepage</a>
         </p>
@@ -149,7 +149,7 @@ page-layout: full
           <span>MSc by Course, ECE Department</span>
           <span>Joined Jan 2026</span>
         </p>
-        <p>Research interests: Specification-driven Development</p>
+
         <p class="team-links">
           <a href="mailto:zchai3@ualberta.ca">Email</a>
         </p>
