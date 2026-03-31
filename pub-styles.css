@@ -37,6 +37,18 @@
   margin-bottom: 0;
 }
 
+.pub-award {
+  display: inline-block;
+  margin-top: 0.25rem;
+  padding: 0.15rem 0.5rem;
+  background: #fef3c7;
+  border: 1px solid #f59e0b;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #92400e;
+}
+
 @media (max-width: 600px) {
   .pub-year-group {
     flex-direction: column;
