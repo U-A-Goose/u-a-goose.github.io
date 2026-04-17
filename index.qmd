@@ -75,6 +75,7 @@ ICSE, FSE, ASE, ISSTA · IJCAI, AAAI · IEEE S&P, ESORICS
 ### News
 
 ::: {.news-list}
+- <span class="news-date">[2026.04]</span> Our paper, Hidden Licensing Risks in the LLMware Ecosystem, is accepted by **ISSTA 2026**!
 - <span class="news-date">[2026.04]</span> Our paper, MultiCodeAttack: Iterative Jailbreak Attacking on LLMs with Multi-Code Prompt Injection, is accepted by **ACL 2026**!
 - <span class="news-date">[2026.04]</span> My NSERC Discovery Grant has been approved! Grateful for the support to advance our research.
 - <span class="news-date">[2026.03]</span> Dr. Zhou Yang's Amii RAP funding (2026 to 2027) 💰 is approved, collaborating with [Matt Taylor](https://drmatttaylor.net/).

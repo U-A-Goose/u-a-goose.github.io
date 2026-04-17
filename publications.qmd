@@ -29,7 +29,7 @@ page-layout: full
     <div class="pub-entry">
       <b>Hidden Licensing Risks in the LLMware Ecosystem.</b><br>
       Bo Wang, Yueyang Chen, Jieke Shi, Minghui Li, Yunbo Lyu, Yinan Wu, Youfang Lin, Zhou Yang.<br>
-      <i>arXiv preprint</i>, 2026.
+      <i>International Symposium on Software Testing and Analysis (ISSTA) 2026</i>.
     </div>
     <div class="pub-entry">
       <b>Scrub It Out! Erasing Sensitive Memorization in Code Language Models via Machine Unlearning.</b><br>
