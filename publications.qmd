@@ -22,9 +22,14 @@ page-layout: full
       <i>IEEE Transactions on Software Engineering (TSE)</i>, 2026.
     </div>
     <div class="pub-entry">
+      <b>PrivCode++: Latent-Conditioned Differentially Private Code Generation for Comprehensive Guarantees.</b><br>
+      Zheng Liu, Chen Gong, Terry Yue Zhuo, Zhou Yang, Kecen Li, Wenlong Meng, Xinwen Hou, Yu Liu, Xiaochen Li.<br>
+      <i>International Conference on Machine Learning (ICML) 2026</i>.
+    </div>
+    <div class="pub-entry">
       <b>Watermarking LLM Agent Trajectories.</b><br>
       Wenlong Meng, Chen Gong, Terry Yue Zhuo, Fan Zhang, Kecen Li, Zheng Liu, Zhou Yang, Chengkun Wei, Wenzhi Chen.<br>
-      <i>arXiv preprint</i>, 2026.
+      <i>International Conference on Machine Learning (ICML) 2026</i>.
     </div>
     <div class="pub-entry">
       <b>Hidden Licensing Risks in the LLMware Ecosystem.</b><br>
