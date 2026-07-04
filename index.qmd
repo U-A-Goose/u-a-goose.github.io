@@ -75,6 +75,8 @@ ICSE, FSE, ASE, ISSTA · IJCAI, AAAI · IEEE S&P, ESORICS
 ### News
 
 ::: {.news-list}
+- <span class="news-date">[2026.06]</span> Two more papers are accepted by **ISSTA 2026**!
+- <span class="news-date">[2026.06]</span> Two papers are accepted by **ASE 2026**!
 - <span class="news-date">[2026.05]</span> Dr. Zhou Yang is officially awarded the **Canada CIFAR AI Chair**🏆!
 - <span class="news-date">[2026.05]</span> Two papers, PrivCode++ (differentially private code generation) and Watermarking LLM Agent Trajectories, are accepted by **ICML 2026**!
 - <span class="news-date">[2026.04]</span> Our paper, Hidden Licensing Risks in the LLMware Ecosystem, is accepted by **ISSTA 2026**!
