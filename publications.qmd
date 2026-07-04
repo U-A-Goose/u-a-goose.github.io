@@ -32,6 +32,16 @@ page-layout: full
       <i>International Conference on Machine Learning (ICML) 2026</i>.
     </div>
     <div class="pub-entry">
+      <b>Learning from the Test: Self-Referential Differential Testing for Deep RL Agents.</b><br>
+      Junda He, Jieke Shi, Zhou Yang, Mingfei Cheng, David Lo.<br>
+      <i>International Symposium on Software Testing and Analysis (ISSTA) 2026</i>.
+    </div>
+    <div class="pub-entry">
+      <b>Insecure Coding Preferences in Long-Term Memory: Security Risks for LLM-based Code Generation.</b><br>
+      Yuchen Chen, Wei Cheng, Yuan Xiao, Zhou Yang, Weifeng Sun, Chunrong Fang, Xiang Chen, Baowen Xu, David Lo, Zhenyu Chen.<br>
+      <i>International Symposium on Software Testing and Analysis (ISSTA) 2026</i>.
+    </div>
+    <div class="pub-entry">
       <b>Hidden Licensing Risks in the LLMware Ecosystem.</b><br>
       Bo Wang, Yueyang Chen, Jieke Shi, Minghui Li, Yunbo Lyu, Yinan Wu, Youfang Lin, Zhou Yang.<br>
       <i>International Symposium on Software Testing and Analysis (ISSTA) 2026</i>.
