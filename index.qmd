@@ -120,7 +120,7 @@ ICSE, FSE, ASE, ISSTA · IJCAI, AAAI · IEEE S&P, ESORICS
 
     <a class="home-bento-card home-bento-link" href="vacancy.html">
       <span class="home-bento-eyebrow">Join Us</span>
-      <h3>Vacancy</h3>
+      <h3>Openings</h3>
       <p>
         We welcome strong applicants interested in PhD, research assistant, and undergraduate individual study opportunities in software engineering and AI.
       </p>
