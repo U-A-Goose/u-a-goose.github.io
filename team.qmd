@@ -131,6 +131,23 @@ page-layout: full
         </p>
       </div>
     </article>
+
+    <article class="team-panel team-member-card">
+      <!-- Portrait pending; placeholder keeps the card layout consistent -->
+      <div class="team-member-photo" aria-hidden="true"></div>
+      <div class="team-member-body">
+        <span class="team-eyebrow">Incoming</span>
+        <h3>Zipeng Ling</h3>
+        <p class="team-role">
+          <span>MSc Student, CS Department</span>
+          <span>Incoming (Sep 2026)</span>
+        </p>
+
+        <p class="team-links">
+          <a href="mailto:zipeng6@ualberta.ca">Email</a>
+        </p>
+      </div>
+    </article>
   </div>
 </section>
 ```
