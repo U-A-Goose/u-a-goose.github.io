@@ -166,18 +166,6 @@ page-layout: full
     </article>
   </div>
 
-  <div class="team-panel team-join-card">
-    <div>
-      <span class="team-eyebrow">Join Us</span>
-      <h3>Interested in Joining the Group?</h3>
-      <p>
-        We welcome strong students interested in software engineering, trustworthy AI, and code LLM research.
-      </p>
-    </div>
-    <p class="team-links">
-      <a href="vacancy.html">View openings</a>
-    </p>
-  </div>
 </section>
 ```
 
@@ -192,7 +180,6 @@ page-layout: full
         <span class="team-eyebrow">Hall of Honor</span>
         <h3>Geng He</h3>
         <p class="team-role">
-          <span>PhD Student, CS Department</span>
           <span>HKUST-GZ</span>
           <span>Co-Advised w/ Prof. Zhensu Sun</span>
         </p>
@@ -205,7 +192,6 @@ page-layout: full
         <span class="team-eyebrow">Hall of Honor</span>
         <h3>Jingfeng Jiang</h3>
         <p class="team-role">
-          <span>PhD Student, CS Department</span>
           <span>Korea University</span>
           <span>Co-Supervised w/ Prof. Dongsun Kim</span>
         </p>
@@ -218,9 +204,8 @@ page-layout: full
         <span class="team-eyebrow">Hall of Honor</span>
         <h3>Wenjia Jiang</h3>
         <p class="team-role">
-          <span>PhD Student, CS Department</span>
           <span>Singapore Management University</span>
-          <span>Co-Supervised w/ Prof. David Lo</span>
+          <span>Co-Advised w/ Prof. David Lo</span>
         </p>
 
         <p class="team-links">
@@ -228,6 +213,19 @@ page-layout: full
         </p>
       </div>
     </article>
+  </div>
+
+  <div class="team-panel team-join-card">
+    <div>
+      <span class="team-eyebrow">Join Us</span>
+      <h3>Interested in Joining the Group?</h3>
+      <p>
+        We welcome strong students interested in software engineering, trustworthy AI, and code LLM research.
+      </p>
+    </div>
+    <p class="team-links">
+      <a href="vacancy.html">View openings</a>
+    </p>
   </div>
 </section>
 ```
