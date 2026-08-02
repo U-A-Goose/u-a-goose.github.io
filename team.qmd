@@ -240,7 +240,7 @@ page-layout: full
       </p>
     </div>
     <p class="team-links">
-      <a href="vacancy.html">View openings</a>
+      <a href="openings.html">View openings</a>
     </p>
   </div>
 </section>

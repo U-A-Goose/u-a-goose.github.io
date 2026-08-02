@@ -1,5 +1,7 @@
 ---
 title: "Openings"
+aliases:
+  - vacancy.html
 ---
 
 I am looking for **self-motivated students** to join our group. If you are passionate about software engineering and AI, please read on!

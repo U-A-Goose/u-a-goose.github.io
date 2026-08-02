@@ -118,7 +118,7 @@ ICSE, FSE, ASE, ISSTA · IJCAI, AAAI · IEEE S&P, ESORICS
       <span class="home-bento-cta">Meet the team →</span>
     </a>
 
-    <a class="home-bento-card home-bento-link" href="vacancy.html">
+    <a class="home-bento-card home-bento-link" href="openings.html">
       <span class="home-bento-eyebrow">Join Us</span>
       <h3>Openings</h3>
       <p>
