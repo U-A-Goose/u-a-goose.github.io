@@ -133,8 +133,7 @@ page-layout: full
     </article>
 
     <article class="team-panel team-member-card">
-      <!-- Portrait pending; placeholder keeps the card layout consistent -->
-      <div class="team-member-photo" aria-hidden="true"></div>
+      <img src="assets/images/protrait_zipeng.jpg" alt="Portrait of Zipeng Ling" class="team-member-photo">
       <div class="team-member-body">
         <span class="team-eyebrow">Incoming</span>
         <h3>Zipeng Ling</h3>
