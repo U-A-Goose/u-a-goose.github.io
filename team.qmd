@@ -105,6 +105,7 @@ page-layout: full
 
         <p class="team-links">
           <a href="mailto:zipeng6@ualberta.ca">Email</a>
+          <a href="https://zpling.github.io/">Homepage</a>
         </p>
       </div>
     </article>
