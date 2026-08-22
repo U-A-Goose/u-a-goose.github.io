@@ -12,6 +12,21 @@ page-layout: full
   <div class="pub-year">2026</div>
   <div class="pub-entries">
     <div class="pub-entry">
+      <b>ManimAgent: Self-Evolving Multimodal Agents for Visual Education.</b><br>
+      Wenjia Jiang, Zongyuan Cai, Yuanhang Shao, Chenru Wang, Boyan Han, Zhixue Song, Keyu Chen, Shengwei An, Xu Yang, Zhou Yang.<br>
+      <i>Conference on Empirical Methods in Natural Language Processing (EMNLP) 2026 Main Conference</i>.
+    </div>
+    <div class="pub-entry">
+      <b>LLM Abstention Can Be a Prompt Artifact, in Addition to Genuine Uncertainty.</b><br>
+      Zipeng Ling, Shuliang Liu, Yuehao Tang, Junqi Yang, Shenghong Fu, Seonil Son, Chen Huang, Kejia Huang, Yao Wan, Zhichao Hou, Xuming Hu.<br>
+      <i>Conference on Empirical Methods in Natural Language Processing (EMNLP) 2026 Main Conference</i>.
+    </div>
+    <div class="pub-entry">
+      <b>Correct Prediction, Wrong Steps? Consensus Reasoning Knowledge Graph for Robust Chain-of-Thought Synthesis.</b><br>
+      Zipeng Ling, Shuliang Liu, Seonil Son, Shenghong Fu, Yuehao Tang, Yao Wan, Xuming Hu.<br>
+      <i>Conference on Empirical Methods in Natural Language Processing (EMNLP) 2026 Main Conference</i>.
+    </div>
+    <div class="pub-entry">
       <b>Ecosystem of Large Language Models for Code.</b><br>
       Zhou Yang, Jieke Shi, Premkumar T. Devanbu, David Lo.<br>
       <i>ACM Transactions on Software Engineering and Methodology (TOSEM)</i>, 35(1), 2026.

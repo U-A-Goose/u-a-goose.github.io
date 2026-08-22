@@ -75,6 +75,7 @@ ICSE, FSE, ASE, ISSTA · IJCAI, AAAI · IEEE S&P, ESORICS
 ### News
 
 ::: {.news-list}
+- <span class="news-date">[2026.08]</span> Three papers are accepted by **EMNLP 2026 Main Conference**!
 - <span class="news-date">[2026.06]</span> Two more papers are accepted by **ISSTA 2026**!
 - <span class="news-date">[2026.06]</span> Two papers are accepted by **ASE 2026**!
 - <span class="news-date">[2026.05]</span> Dr. Zhou Yang is officially awarded the **Canada CIFAR AI Chair**🏆!
