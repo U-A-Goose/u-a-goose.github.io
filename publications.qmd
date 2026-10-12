@@ -12,6 +12,11 @@ page-layout: full
   <div class="pub-year">2026</div>
   <div class="pub-entries">
     <div class="pub-entry">
+      <a href="https://arxiv.org/abs/2610.11593"><b>Runnable Commit Untangling for Coding Agents.</b></a><br>
+      Jinfeng Jiang, Dongsun Kim, Dayi Lin, Zhou Yang.<br>
+      <i>arXiv preprint</i>, 2026.
+    </div>
+    <div class="pub-entry">
       <b>ManimAgent: Self-Evolving Multimodal Agents for Visual Education.</b><br>
       Wenjia Jiang, Zongyuan Cai, Yuanhang Shao, Chenru Wang, Boyan Han, Zhixue Song, Keyu Chen, Shengwei An, Xu Yang, Zhou Yang.<br>
       <i>Conference on Empirical Methods in Natural Language Processing (EMNLP) Main Conference</i>, 2026.
