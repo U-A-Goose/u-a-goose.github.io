@@ -169,9 +169,9 @@ page-layout: full
     </div>
   </article>
 
-  <article class="pub-entry" data-citation="arXiv preprint, 2026.">
+  <article class="pub-entry" data-citation="Annual Computer Security Applications Conference (ACSAC) 2026.">
     <p class="pub-venue">
-      <span class="pub-label">arXiv 2026</span>
+      <span class="pub-label">ACSAC 2026</span>
     </p>
     <div class="pub-content">
       <p class="pub-title"><b>Finding Memory Leaks in C/C++ Programs via Neuro-Symbolic Augmented Static Analysis.</b></p>
