@@ -38,6 +38,16 @@ page-layout: full
     </div>
   </article>
 
+  <article class="pub-entry" data-citation="International Symposium on Software Testing and Analysis (ISSTA) 2026.">
+    <p class="pub-venue">
+      <span class="pub-label">ISSTA 2026</span>
+    </p>
+    <div class="pub-content">
+      <p class="pub-title"><b>Hidden Licensing Risks in the LLMware Ecosystem.</b></p>
+      <p class="pub-authors">Bo Wang, Yueyang Chen, Jieke Shi, Minghui Li, Yunbo Lyu, Yinan Wu, Youfang Lin, Zhou Yang.</p>
+    </div>
+  </article>
+
   <article class="pub-entry" data-citation="ACM Transactions on Software Engineering and Methodology (TOSEM), 35(1), 2026.">
     <p class="pub-venue">
       <span class="pub-label">TOSEM 2026</span>
@@ -95,16 +105,6 @@ page-layout: full
     <div class="pub-content">
       <p class="pub-title"><b>Insecure Coding Preferences in Long-Term Memory: Security Risks for LLM-based Code Generation.</b></p>
       <p class="pub-authors">Yuchen Chen, Wei Cheng, Yuan Xiao, Zhou Yang, Weifeng Sun, Chunrong Fang, Xiang Chen, Baowen Xu, David Lo, Zhenyu Chen.</p>
-    </div>
-  </article>
-
-  <article class="pub-entry" data-citation="International Symposium on Software Testing and Analysis (ISSTA) 2026.">
-    <p class="pub-venue">
-      <span class="pub-label">ISSTA 2026</span>
-    </p>
-    <div class="pub-content">
-      <p class="pub-title"><b>Hidden Licensing Risks in the LLMware Ecosystem.</b></p>
-      <p class="pub-authors">Bo Wang, Yueyang Chen, Jieke Shi, Minghui Li, Yunbo Lyu, Yinan Wu, Youfang Lin, Zhou Yang.</p>
     </div>
   </article>
 
