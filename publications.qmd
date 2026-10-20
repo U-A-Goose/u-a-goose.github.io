@@ -8,6 +8,16 @@ page-layout: full
 <section class="pub-shell">
 <div class="pub-list">
 
+  <article class="pub-entry" data-citation="arXiv preprint arXiv:2610.24824, 2026.">
+    <p class="pub-venue">
+      <span class="pub-label">arXiv 2026</span>
+    </p>
+    <div class="pub-content">
+      <p class="pub-title"><b>Teaching Code Agents to Ask Without Leaking Private Code.</b></p>
+      <p class="pub-authors">Wenjia Jiang, Jieke Shi, Zhensu Sun, Chengran Yang, Shidong Pan, Peixin Zhang, Yifan Jia, James Hoang, Xiwei Xu, Zhenchang Xing, David Lo, Zhou Yang.</p>
+    </div>
+  </article>
+
   <article class="pub-entry" data-citation="arXiv preprint, 2026.">
     <p class="pub-venue">
       <span class="pub-label">arXiv 2026</span>
