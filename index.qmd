@@ -12,34 +12,24 @@ page-layout: full
 
 We are the **U-a-Goose** <span class="goose-acronym">(<span class="goose-letter">G</span>r<span class="goose-letter">O</span>up <span class="goose-letter">O</span>f <span class="goose-letter">S</span>oftware <span class="goose-letter">E</span>ngineering)</span> group at [University of Alberta](https://www.ualberta.ca/en/index.html).
 
-::: {.lab-intro-grid}
-
-::: {.lab-image-card}
 ```{=html}
-<div class="lab-image">
-  <img src="assets/images/coding_goose_1.png" class="d-block w-100" alt="Coding goose illustration">
-</div>
+<section class="lab-research-card">
+  <img src="assets/images/coding_goose_1.png" class="lab-research-image" alt="Coding goose illustration">
+  <h3>What We Work On</h3>
+  <p>
+    We study <strong>trustworthy software engineering in the AI era</strong>, asking: <strong>How can we help AI learn from limited, incomplete experience to reliably build and evolve complex software systems?</strong>
+  </p>
+  <p>
+    We use software engineering knowledge to shape better learning objectives, experiences, and feedback, helping models explore beyond established solutions and refine their judgments in light of verifiable evidence.
+  </p>
+  <div class="lab-tag-row">
+    <span class="lab-tag">Trustworthy Code LLMs</span>
+    <span class="lab-tag">AI Security &amp; Privacy</span>
+    <span class="lab-tag">Software Engineering</span>
+    <span class="lab-tag">Efficient AI Systems</span>
+  </div>
+</section>
 ```
-:::
-
-::: {.lab-copy-card}
-### What We Work On
-
-U-A-Goose studies **trustworthy software engineering for the AI era**, with a particular focus on **large language models for code**, **AI security and privacy**, and **efficient and sustainable AI systems**.
-
-Our projects sit at the intersection of software engineering and machine learning: robust coding assistants, evaluation and testing of AI-enabled systems, automated protection of critical software operations, specification-driven development, and emerging systems topics such as game compatibility layers.
-
-```{=html}
-<div class="lab-tag-row">
-  <span class="lab-tag">Trustworthy Code LLMs</span>
-  <span class="lab-tag">AI Security &amp; Privacy</span>
-  <span class="lab-tag">Software Engineering</span>
-  <span class="lab-tag">Efficient AI Systems</span>
-</div>
-```
-:::
-
-:::
 
 ::: {.lab-affiliation-card}
 ### UAlberta × Amii
@@ -201,16 +191,7 @@ ICSE, FSE, ASE, ISSTA · IJCAI, AAAI · IEEE S&P, ESORICS
   width: 100%;
 }
 
-.lab-intro-grid {
-  display: grid;
-  grid-template-columns: minmax(260px, 0.9fr) minmax(300px, 1.25fr);
-  gap: 1.25rem;
-  margin: 1.5rem 0 1.15rem;
-  align-items: stretch;
-}
-
-.lab-image-card,
-.lab-copy-card,
+.lab-research-card,
 .lab-affiliation-card {
   background: linear-gradient(180deg, #ffffff 0%, #f8fbff 100%);
   border: 1px solid #e2e8f0;
@@ -219,16 +200,26 @@ ICSE, FSE, ASE, ISSTA · IJCAI, AAAI · IEEE S&P, ESORICS
   min-width: 0;
 }
 
-.lab-image-card {
-  padding: 1rem;
+.lab-research-card {
+  display: flow-root;
+  margin: 1.5rem 0 1.15rem;
 }
 
-.lab-copy-card,
+.lab-research-image {
+  float: left;
+  width: 34%;
+  max-width: 220px;
+  height: auto;
+  margin: 0 1.3rem 0.65rem 0;
+  border-radius: 12px;
+}
+
+.lab-research-card,
 .lab-affiliation-card {
   padding: 1.3rem 1.4rem;
 }
 
-.lab-copy-card h3,
+.lab-research-card h3,
 .lab-affiliation-card h3 {
   margin-top: 0;
   margin-bottom: 0.7rem;
@@ -236,7 +227,7 @@ ICSE, FSE, ASE, ISSTA · IJCAI, AAAI · IEEE S&P, ESORICS
   font-weight: 700;
 }
 
-.lab-copy-card p:last-child,
+.lab-research-card p:last-child,
 .lab-affiliation-card p:last-child {
   margin-bottom: 0;
 }
@@ -246,6 +237,10 @@ ICSE, FSE, ASE, ISSTA · IJCAI, AAAI · IEEE S&P, ESORICS
   flex-wrap: wrap;
   gap: 0.55rem;
   margin-top: 1rem;
+}
+
+.lab-research-card .lab-tag-row {
+  clear: both;
 }
 
 .lab-tag {
@@ -485,22 +480,7 @@ ICSE, FSE, ASE, ISSTA · IJCAI, AAAI · IEEE S&P, ESORICS
   line-height: 1.7;
 }
 
-.lab-image {
-  border-radius: 10px;
-  overflow: hidden;
-  background: linear-gradient(135deg, #f8fafc 0%, #eef4ff 100%);
-}
-
-.lab-image img {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-
 @media (max-width: 1280px) {
-  .lab-intro-grid {
-    grid-template-columns: 1fr;
-  }
   .home-bento-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -510,6 +490,14 @@ ICSE, FSE, ASE, ISSTA · IJCAI, AAAI · IEEE S&P, ESORICS
 }
 
 @media (max-width: 768px) {
+  .lab-research-card {
+    padding: 1rem;
+  }
+  .lab-research-image {
+    width: 35%;
+    max-width: 132px;
+    margin-right: 0.85rem;
+  }
   .home-bento-grid {
     grid-template-columns: 1fr;
   }
