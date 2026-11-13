@@ -94,12 +94,12 @@ description: "U-A-Goose at the University of Alberta studies trustworthy softwar
         </article></div></section>
       <section class="people-group honor-group" aria-labelledby="honor-heading"><h3 id="honor-heading">Hall of Honor <span>IRCC Delayed Students</span></h3><div class="people-grid three"><article class="person">
           <img src="assets/images/protrait_gh.jpg" alt="Geng He" loading="lazy" width="80" height="96">
-          <div><h4>Geng He</h4><p class="person-role">Now Research Engineer@SMU</p><p class="person-detail">Co-Advised w/ Prof. David Lo</p>
+          <div><h4>Geng He</h4><p class="person-role">Incoming PhD Student at HKUST(GZ)</p><p class="person-detail">Co-Advised with <a href="https://v587su.github.io/">Dr. Zhensu Sun</a></p>
           </div>
         </article>
 <article class="person">
           <img src="assets/images/protrait_hhf.jpg" alt="Jingfeng Jiang" loading="lazy" width="80" height="96">
-          <div><h4>Jingfeng Jiang</h4><p class="person-role">Now PhD Student@Korea University</p><p class="person-detail">Co-Advised w/ Prof. Dongsun Kim</p>
+          <div><h4>Jingfeng Jiang</h4><p class="person-role">Now PhD Student@Korea University</p><p class="person-detail">Co-Advised with <a href="https://www.darkrsw.net/">Prof. Dongsun Kim</a></p>
           </div>
         </article>
 <article class="person">
