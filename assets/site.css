@@ -79,14 +79,14 @@ h1 { font-size: 43px; letter-spacing: -1.5px; }
 .people-grid.two { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 .people-grid.four { grid-template-columns: repeat(4, minmax(0, 1fr)); }
 .people-grid.three { grid-template-columns: repeat(3, minmax(0, 1fr)); }
-.person { display: grid; grid-template-columns: 68px 1fr; gap: 14px; align-items: start; min-width: 0; }
-.person img { width: 68px; height: 84px; object-fit: cover; object-position: center 28%; }
+.person { display: grid; grid-template-columns: 84px minmax(0, 1fr); gap: 14px; align-items: start; min-width: 0; }
+.person img { width: 84px; height: 104px; object-fit: cover; object-position: center 28%; }
 .person h4 { font-size: 14px; margin: 0 0 5px; line-height: 1.45; }
 .person-role { font-size: 12px; color: var(--body); margin: 0; line-height: 1.55; }
 .person-detail { font-size: 11px; color: var(--muted); margin: 3px 0 0; line-height: 1.55; }
 .honor-group h3 span { font-size: 12px; font-weight: 400; color: var(--muted); margin-left: 10px; }
-.honor-group .person { grid-template-columns: 52px 1fr; }
-.honor-group .person img { width: 52px; height: 66px; }
+.honor-group .person { grid-template-columns: 68px minmax(0, 1fr); }
+.honor-group .person img { width: 68px; height: 86px; }
 .section-intro { margin: -10px 0 26px; font-size: 15px; }
 .openings-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 28px; }
 .openings-grid article+article { border-left: 1px solid var(--line); padding-left: 28px; }
@@ -138,7 +138,6 @@ footer a { text-decoration: none; }
   .graduate-groups { grid-template-columns: 1fr; gap: 22px; }
   .people-grid.four { grid-template-columns: repeat(2, 1fr); }
   .people-grid.two { gap: 24px; }
-  .person { grid-template-columns: 68px 1fr; }
   .screening { grid-template-columns: 190px 1fr; gap: 0 20px; }
   .screening ol { gap: 16px; }
 }
@@ -171,8 +170,8 @@ footer a { text-decoration: none; }
   .pi-identity h3 { font-size: 19px; }
   .pi-bio { grid-column: 1/-1; font-size: 13px; }
   .people-grid.three { grid-template-columns: 1fr; }
-  .person { grid-template-columns: 56px 1fr; gap: 10px; }
-  .person img { width: 56px; height: 72px; }
+  .person { grid-template-columns: 64px minmax(0, 1fr); gap: 10px; }
+  .person img { width: 64px; height: 80px; }
   .person h4 { font-size: 13px; }
   .person-role { font-size: 11px; }
   .person-detail { font-size: 11px; }
@@ -205,8 +204,8 @@ footer a { text-decoration: none; }
   nav { gap: 16px; }
   nav a { font-size: 12px; }
   .people-grid.two, .people-grid.four { grid-template-columns: 1fr; }
-  .person { grid-template-columns: 64px 1fr; }
-  .person img { width: 64px; height: 80px; }
+  .person { grid-template-columns: 72px minmax(0, 1fr); }
+  .person img { width: 72px; height: 90px; }
   .person h4 { font-size: 14px; }
   .person-role { font-size: 12px; }
   .person-detail { font-size: 11px; }
