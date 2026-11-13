@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="$if(lang)$$lang$$else$en$endif$">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>$pagetitle$</title>
+$if(description-meta)$
+  <meta name="description" content="$description-meta$">
+$endif$
+$if(redirect-to)$
+  <meta http-equiv="refresh" content="0; url=$redirect-to$">
+  <link rel="canonical" href="$redirect-to$">
+$endif$
+$for(css)$
+  <link rel="stylesheet" href="$css$">
+$endfor$
+$for(header-includes)$
+  $header-includes$
+$endfor$
+  <script src="assets/site.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="header-inner wrap">
+      <a class="university-mark" href="https://www.ualberta.ca/en/index.html" aria-label="University of Alberta"><img src="assets/images/logos/ualberta.png" alt="University of Alberta" width="164" height="52"></a>
+      <a class="brand" href="index.html#about" data-section="about"><strong>U-A-Goose</strong><span>Software Engineering Research Group</span></a>
+      <nav aria-label="Main navigation">
+        <a href="index.html#about" data-section="about">About</a>
+        <a href="index.html#people" data-section="people">People</a>
+        <a href="index.html#join" data-section="join">Join us</a>
+        <a href="index.html#community" data-section="community">Community</a>
+        <a class="publications-link" href="publications.html">Publications <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </header>
+$for(include-before)$
+$include-before$
+$endfor$
+  <main id="main" class="wrap" tabindex="-1">
+$if(title)$
+    <h1>$title$</h1>
+$endif$
+$body$
+  </main>
+  <footer class="wrap"><div><strong>U-A-Goose</strong><span>University of Alberta · Edmonton, Canada</span></div><a href="mailto:zhou.yang@ualberta.ca">Contact Prof. Zhou Yang</a><a href="index.html#about" data-section="about">Back to top ↑</a></footer>
+$for(include-after)$
+$include-after$
+$endfor$
+</body>
+</html>

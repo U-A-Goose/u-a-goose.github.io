@@ -1,30 +1,21 @@
 project:
   type: website
   output-dir: _site
+  resources:
+    - assets/**
 
 website:
   title: "U-A-Goose"
   site-url: https://u-a-goose.github.io
   favicon: assets/images/goose_2.png
-  navbar:
-    logo: assets/images/goose_2.png
-    logo-alt: "U-A-Goose"
-    left:
-      - href: index.qmd
-        text: Home
-      - href: team.qmd
-        text: Team
-      - href: publications.qmd
-        text: Publications
-      - href: openings.qmd
-        text: Openings
-  page-footer:
-    center: "© 2026 U-A-Goose · Built with [Quarto](https://quarto.org)"
+  navbar: false
+  search: false
 
+lang: en
 format:
   html:
-    theme:
-      - cosmo
-      - assets/custom.scss
+    theme: none
+    template: assets/site-template.html
+    css: assets/site.css
     toc: false
-    smooth-scroll: true
+    anchor-sections: false
