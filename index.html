@@ -1,649 +1,175 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
-
-<meta charset="utf-8">
-<meta name="generator" content="quarto-1.11.9">
-
-<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-
-
-<title>U-A-Goose</title>
-<style>
-/* Default styles provided by pandoc.
-** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
-*/
-span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: 1.5em;}
-div.column{flex: auto;}
-@media screen {
-div.columns{gap: min(4vw, 1.5em);}
-div.column{overflow-x: auto;}
-}
-div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-ul.task-list{list-style: none;}
-ul.task-list li input[type="checkbox"] {
-  width: 0.8em;
-  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
-  vertical-align: middle;
-}
-</style>
-
-
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
+<html lang="en"><head>
 <link href="./assets/images/goose_2.png" rel="icon" type="image/png">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/scrollable-regions/scrollable-regions.js" type="module"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-html/tabby.min.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-63b5708e65d6cd79cd7618c58d0c21e7.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-d5ad7c23ebd71297e8e5ed5041a49d66.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
-<script id="quarto-search-options" type="application/json">{
-  "location": "navbar",
-  "copy-button": false,
-  "collapse-after": 3,
-  "panel-placement": "end",
-  "type": "overlay",
-  "limit": 50,
-  "keyboard-shortcut": [
-    "f",
-    "/",
-    "s"
-  ],
-  "show-item-context": false,
-  "language": {
-    "search-no-results-text": "No results",
-    "search-matching-documents-text": "matching documents",
-    "search-copy-link-title": "Copy link to search",
-    "search-hide-matches-text": "Hide additional matches",
-    "search-more-match-text": "more match in this document",
-    "search-more-matches-text": "more matches in this document",
-    "search-clear-button-title": "Clear",
-    "search-text-placeholder": "",
-    "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit",
-    "search-label": "Search"
-  }
-}</script>
-<style>html{ scroll-behavior: smooth; }</style>
-
-
+<link href="site_libs/quarto-html/light-border.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-html-640605f58ae58ee79329c070719e555b.min.css" rel="stylesheet" append-hash="true" data-mode="light">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-63b5708e65d6cd79cd7618c58d0c21e7.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>U-A-Goose — GrOup Of Software Engineering</title>
+  <meta name="description" content="U-A-Goose at the University of Alberta studies trustworthy software engineering in the AI era. Meet our team and explore Fall 2027 opportunities.">
+  <link rel="stylesheet" href="assets/site.css">
+  <script src="assets/site.js" defer=""></script>
 </head>
-
-<body class="nav-fixed quarto-light"><a id="quarto-skip-link" class="visually-hidden-focusable" href="#quarto-document-content">Skip to main content</a>
-
-<div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg " data-bs-theme="dark" aria-label="Site">
-      <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container mx-auto">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./assets/images/goose_2.png" alt="U-A-Goose" class="navbar-logo light-content">
-    <img src="./assets/images/goose_2.png" alt="U-A-Goose" class="navbar-logo dark-content">
-    </a>
-    <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">U-A-Goose</span>
-    </a>
-  </div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-  <span class="navbar-toggler-icon"></span>
-</button>
-          <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll me-auto">
-  <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
-<span class="menu-text">Home</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./team.html"> 
-<span class="menu-text">Team</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./publications.html"> 
-<span class="menu-text">Publications</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./openings.html"> 
-<span class="menu-text">Openings</span></a>
-  </li>  
-</ul>
-          </div> <!-- /navcollapse -->
-            <div class="quarto-navbar-tools">
-</div>
-            <div id="quarto-search" class="" title="Search"></div>
-      </div> <!-- /container-fluid -->
-    </nav>
-</header>
-<!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
-<!-- sidebar -->
-<!-- margin-sidebar -->
-    
-<!-- main -->
-<main class="content column-page" id="quarto-document-content" tabindex="-1"><header id="title-block-header" class="quarto-title-block"></header>
-
-
-
-
-<div class="lab-page-container">
-<section id="welcome-to-goose" class="level2 lab-main-content">
-<h2 class="anchored" data-anchor-id="welcome-to-goose">Welcome to Goose</h2>
-<p>We are the <strong>U-a-Goose</strong> <span class="goose-acronym">(<span class="goose-letter">G</span>r<span class="goose-letter">O</span>up <span class="goose-letter">O</span>f <span class="goose-letter">S</span>oftware <span class="goose-letter">E</span>ngineering)</span> group at <a href="https://www.ualberta.ca/en/index.html">University of Alberta</a>.</p>
-<section class="lab-research-card">
-  <img src="assets/images/coding_goose_1.png" class="lab-research-image" alt="Coding goose illustration">
-  <h3 class="anchored">What We Work On</h3>
-  <p>
-    We study <strong>trustworthy software engineering in the AI era</strong>, asking: <strong>How can we help AI learn from limited, incomplete experience to reliably build and evolve complex software systems?</strong>
-  </p>
-  <p>
-    We use software engineering knowledge to shape better learning objectives, experiences, and feedback, helping models explore beyond established solutions and refine their judgments in light of verifiable evidence.
-  </p>
-  <div class="lab-tag-row">
-    <span class="lab-tag">Trustworthy Code LLMs</span>
-    <span class="lab-tag">AI Security &amp; Privacy</span>
-    <span class="lab-tag">Software Engineering</span>
-    <span class="lab-tag">Efficient AI Systems</span>
-  </div>
-</section>
-<section id="ualberta-amii" class="level3 lab-affiliation-card">
-<h3 class="anchored" data-anchor-id="ualberta-amii">UAlberta × Amii</h3>
-<p>Our group is based in the <strong>Department of Computing Science at the University of Alberta</strong>. Prof.&nbsp;Zhou Yang is an <strong>Amii Fellow</strong>, and the lab is connected to the <strong>Amii</strong> research ecosystem through collaborative projects and Amii-supported initiatives, including the recently approved <strong>Amii RAP</strong> funding.</p>
-</section>
-<!-- ["Your Lab Motto Here"]{.lab-motto} -->
-<!-- ::: {.info-row}
-::: {.info-item}
-[🤝]{.info-icon} **Global Collaborations**
-
-Microsoft Research, Adobe, NUS, NTU, and many more institutions worldwide.
-:::
-
-::: {.info-item}
-[📄]{.info-icon} **Top-Tier Publications**
-
-ICSE, FSE, ASE, ISSTA · IJCAI, AAAI · IEEE S&P, ESORICS
-:::
-::: -->
-<!-- <div class="join-box">
-  🎓 <strong>We are recruiting!</strong> We are looking for passionate PhD students and Research Engineers.<br>
-  Contact <a href="mailto:zhou.yang@ualberta.ca">Prof. Zhou Yang</a> for more information.
-</div> -->
-</section>
-<section id="news" class="level3 lab-news-sidebar">
-<h3 class="anchored" data-anchor-id="news">News</h3>
-<div class="news-list">
-<ul>
-<li><span class="news-date">[2026.11]</span> Yuyang wins the <strong>Best Poster Award</strong> from CSER 2026.</li>
-<li><span class="news-date">[2026.10]</span> Three papers have been accepted to <strong>ICSE 2027</strong>!</li>
-<li><span class="news-date">[2026.08]</span> Three papers are accepted by <strong>EMNLP 2026 Main Conference</strong>!</li>
-<li><span class="news-date">[2026.06]</span> Two more papers are accepted by <strong>ISSTA 2026</strong>!</li>
-<li><span class="news-date">[2026.06]</span> Two papers are accepted by <strong>ASE 2026</strong>!</li>
-<li><span class="news-date">[2026.05]</span> Dr.&nbsp;Zhou Yang is officially awarded the <strong>Canada CIFAR AI Chair</strong>🏆!</li>
-<li><span class="news-date">[2026.05]</span> Two papers, PrivCode++ (differentially private code generation) and Watermarking LLM Agent Trajectories, are accepted by <strong>ICML 2026</strong>!</li>
-<li><span class="news-date">[2026.04]</span> Our paper, Hidden Licensing Risks in the LLMware Ecosystem, is accepted by <strong>ISSTA 2026</strong>!</li>
-<li><span class="news-date">[2026.04]</span> Our paper, MultiCodeAttack: Iterative Jailbreak Attacking on LLMs with Multi-Code Prompt Injection, is accepted by <strong>ACL 2026</strong>!</li>
-<li><span class="news-date">[2026.04]</span> My NSERC Discovery Grant has been approved! Grateful for the support to advance our research.</li>
-<li><span class="news-date">[2026.03]</span> Dr.&nbsp;Zhou Yang’s Amii RAP funding (2026 to 2027) 💰 is approved, collaborating with <a href="https://drmatttaylor.net/">Matt Taylor</a>.</li>
-<li><span class="news-date">[2026.03]</span> One paper on efficient code LLM inference with quantization and compilation-time optimization is accepted by <strong>FSE 2026</strong>.</li>
-<li><span class="news-date">[2026.03]</span> Hanzheng Dai’s doctoral symposium paper on “Automated Diagnosis and Testing of Game Compatibility Layers” is accepted by <strong>FSE 2026 Doctoral Symposium</strong>.</li>
-<li><span class="news-date">[2026.03]</span> Dr.&nbsp;Zhou Yang wins the <strong>MSR Outstanding Doctoral Research Award</strong>🏆! There is only one awardee this year.</li>
-<li><span class="news-date">[2026.01]</span> One paper (on automatically protecting critical software operations in TEE) is accepted by <strong>IEEE Transactions on Software Engineering</strong>!</li>
-<li><span class="news-date">[2025.12]</span> Dr.&nbsp;Zhou Yang wins the <strong>ACM SIGSOFT Outstanding Doctoral Dissertation Award</strong>🏆! There is only one award this year.</li>
-<li><span class="news-date">[2025.11]</span> Our paper on understanding user perceptions of AI coding assistants wins the <strong>Distinguished Paper Award</strong>🏆 at <strong>ASE 2025</strong>!</li>
-<li><span class="news-date">[2025.09]</span> Our paper wins the prestigious <strong>2024 IEEE Computer Society Best Paper Award</strong>🏆! (1 out of 183)</li>
-<li><span class="news-date">[2025.09]</span> Dr.&nbsp;Zhou Yang officially joins the University of Alberta as an Assistant Professor and becomes an <strong>Amii Fellow</strong>.</li>
-</ul>
-</div>
-</section>
-</div>
-<section class="home-bento-band">
-  <div class="home-bento-grid">
-    <a class="home-bento-card home-bento-link" href="publications.html">
-      <span class="home-bento-eyebrow">Research</span>
-      <h3 class="anchored">Publications</h3>
-      <p>
-        Explore our work across venues including <strong>ICSE</strong>, <strong>FSE</strong>, <strong>ASE</strong>, <strong>TOSEM</strong>, and <strong>TSE</strong>.
-      </p>
-      <span class="home-bento-cta">Browse papers →</span>
-    </a>
-
-    <a class="home-bento-card home-bento-link" href="team.html">
-      <span class="home-bento-eyebrow">People</span>
-      <h3 class="anchored">Group Members</h3>
-      <p>
-        Meet Prof. Zhou Yang and our growing team of graduate researchers working on software engineering, AI systems, and trustworthy code LLMs.
-      </p>
-      <span class="home-bento-cta">Meet the team →</span>
-    </a>
-
-    <a class="home-bento-card home-bento-link" href="openings.html">
-      <span class="home-bento-eyebrow">Join Us</span>
-      <h3 class="anchored">Openings</h3>
-      <p>
-        We welcome strong applicants interested in PhD, research assistant, and undergraduate individual study opportunities in software engineering and AI.
-      </p>
-      <span class="home-bento-cta">See openings →</span>
-    </a>
-
-    <section class="home-bento-card home-bento-highlight">
-      <span class="home-bento-eyebrow">2026 Highlights</span>
-      <h3 class="anchored">Join Our Community Events</h3>
-      <p>
-        We are helping build and support research communities around software engineering, human-centered AI, and trustworthy code LLMs. We encourage researchers and students to participate.
-      </p>
-
-      <div class="event-stack">
-        <a class="event-pill" href="https://www.cser.ca/2026s/" target="_blank" rel="noopener noreferrer">
-          <strong>CSER 2026 Spring</strong>
-          <span>May 23-24, 2026 · University of Alberta, Edmonton</span>
-        </a>
-        <a class="event-pill" href="https://humanai4se.github.io/" target="_blank" rel="noopener noreferrer">
-          <strong>HumanAISE 2026</strong>
-          <span>2nd Workshop on Human-Centered AI for Software Engineering · Co-located with FSE 2026 in Montreal</span>
-        </a>
-        <a class="event-pill" href="https://poisonedchalice.github.io/" target="_blank" rel="noopener noreferrer">
-          <strong>Poisoned Chalice Competition 2026</strong>
-          <span>Co-located with FSE 2026 · Competition day: July 6, 2026 · Montreal</span>
-        </a>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="header-inner wrap">
+      <a class="university-mark" href="https://www.ualberta.ca/en/index.html" aria-label="University of Alberta"><img src="assets/images/logos/ualberta.png" alt="University of Alberta" width="164" height="52"></a>
+      <a class="brand" href="index.html#about" data-section="about"><strong>U-A-Goose</strong><span>Software Engineering Research Group</span></a>
+      <nav aria-label="Main navigation">
+        <a href="index.html#about" data-section="about">About</a>
+        <a href="index.html#people" data-section="people">People</a>
+        <a href="index.html#join" data-section="join">Join us</a>
+        <a href="index.html#community" data-section="community">Community</a>
+        <a class="publications-link" href="publications.html">Publications <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </header>
+  <main id="main" class="wrap" tabindex="-1"><header id="title-block-header" class="quarto-title-block"></header>
+<section id="about" class="intro-section" aria-labelledby="page-title">
+      <div class="intro">
+        <p class="eyebrow">University of Alberta · Department of Computing Science</p>
+        <h1 id="page-title">U-A-Goose</h1>
+        <p class="subtitle goose-acronym"><strong>G</strong>r<strong>O</strong>up <strong>O</strong>f <strong>S</strong>oftware <strong>E</strong>ngineering</p>
+        <div class="research-text">
+          <img class="goose" src="assets/images/coding_goose_1.png" alt="Our coding goose mascot" width="160" height="160">
+          <p>We study <strong>trustworthy software engineering in the AI era</strong>, asking: <strong>How can we help AI learn from limited, incomplete experience to reliably build and evolve complex software systems?</strong></p>
+          <p>We use software engineering knowledge to shape better learning objectives, experiences, and feedback, helping models explore beyond established solutions and refine their judgments in light of verifiable evidence.</p>
+        </div>
       </div>
-
-      <p class="home-bento-note">
-        Please check the official pages above for the latest registration, program, and participation details.
-      </p>
+      <aside class="news" aria-labelledby="news-heading">
+        <div class="news-heading"><h2 id="news-heading">News</h2><span>From the group</span></div>
+        <div class="news-scroll" tabindex="0" role="region" aria-label="All group news, scroll for older updates"><ol><li><time datetime="2026-11">2026.11</time><div>Yuyang wins the <span aria-hidden="true">🏆</span> <strong>Best Poster Award</strong> from CSER 2026.</div></li>
+<li><time datetime="2026-10">2026.10</time><div>Three papers have been accepted to <strong>ICSE 2027</strong>!</div></li>
+<li><time datetime="2026-08">2026.08</time><div>Three papers are accepted by <strong>EMNLP 2026 Main Conference</strong>!</div></li>
+<li><time datetime="2026-06">2026.06</time><div>Two more papers are accepted by <strong>ISSTA 2026</strong>!</div></li>
+<li><time datetime="2026-06">2026.06</time><div>Two papers are accepted by <strong>ASE 2026</strong>!</div></li>
+<li><time datetime="2026-05">2026.05</time><div>Dr. Zhou Yang is officially awarded the <strong>Canada CIFAR AI Chair</strong>🏆!</div></li>
+<li><time datetime="2026-05">2026.05</time><div>Two papers, PrivCode++ (differentially private code generation) and Watermarking LLM Agent Trajectories, are accepted by <strong>ICML 2026</strong>!</div></li>
+<li><time datetime="2026-04">2026.04</time><div>Our paper, Hidden Licensing Risks in the LLMware Ecosystem, is accepted by <strong>ISSTA 2026</strong>!</div></li>
+<li><time datetime="2026-04">2026.04</time><div>Our paper, MultiCodeAttack: Iterative Jailbreak Attacking on LLMs with Multi-Code Prompt Injection, is accepted by <strong>ACL 2026</strong>!</div></li>
+<li><time datetime="2026-04">2026.04</time><div>My NSERC Discovery Grant has been approved! Grateful for the support to advance our research.</div></li>
+<li><time datetime="2026-03">2026.03</time><div>Dr. Zhou Yang's Amii RAP funding (2026 to 2027) 💰 is approved, collaborating with <a href="https://drmatttaylor.net/">Matt Taylor</a>.</div></li>
+<li><time datetime="2026-03">2026.03</time><div>One paper on efficient code LLM inference with quantization and compilation-time optimization is accepted by <strong>FSE 2026</strong>.</div></li>
+<li><time datetime="2026-03">2026.03</time><div>Hanzheng Dai's doctoral symposium paper on "Automated Diagnosis and Testing of Game Compatibility Layers" is accepted by <strong>FSE 2026 Doctoral Symposium</strong>.</div></li>
+<li><time datetime="2026-03">2026.03</time><div>Dr. Zhou Yang wins the <strong>MSR Outstanding Doctoral Research Award</strong>🏆! There is only one awardee this year.</div></li>
+<li><time datetime="2026-01">2026.01</time><div>One paper (on automatically protecting critical software operations in TEE) is accepted by <strong>IEEE Transactions on Software Engineering</strong>!</div></li>
+<li><time datetime="2025-12">2025.12</time><div>Dr. Zhou Yang wins the <strong>ACM SIGSOFT Outstanding Doctoral Dissertation Award</strong>🏆! There is only one award this year.</div></li>
+<li><time datetime="2025-11">2025.11</time><div>Our paper on understanding user perceptions of AI coding assistants wins the <strong>Distinguished Paper Award</strong>🏆 at <strong>ASE 2025</strong>!</div></li>
+<li><time datetime="2025-09">2025.09</time><div>Our paper wins the prestigious <strong>2024 IEEE Computer Society Best Paper Award</strong>🏆! (1 out of 183)</div></li>
+<li><time datetime="2025-09">2025.09</time><div>Dr. Zhou Yang officially joins the University of Alberta as an Assistant Professor and becomes an <strong>Amii Fellow</strong>.</div></li></ol></div>
+      </aside>
     </section>
-  </div>
-</section>
-<section class="funding-strip">
-  <h3 class="anchored">Funding &amp; Institutional Support</h3>
-  <p>
-    Our work is supported by research funders and institutional partners including the following organizations.
-  </p>
-  <div class="funding-grid">
-    <a class="funder-card" href="https://www.amii.ca/" target="_blank" rel="noopener noreferrer">
-      <img src="assets/images/logos/amii.png" alt="Amii" class="funder-logo funder-logo-icon">
-      <span class="funder-name">Amii</span>
-    </a>
-    <a class="funder-card" href="https://cifar.ca/" target="_blank" rel="noopener noreferrer">
-      <img src="assets/images/logos/cifar.svg" alt="CIFAR" class="funder-logo">
-      <span class="funder-name">CIFAR</span>
-    </a>
-    <a class="funder-card" href="https://www.ualberta.ca/en/index.html" target="_blank" rel="noopener noreferrer">
-      <img src="assets/images/logos/ualberta.png" alt="University of Alberta" class="funder-logo">
-      <span class="funder-name">University of Alberta</span>
-    </a>
-    <a class="funder-card" href="https://nserc-crsng.canada.ca/en" target="_blank" rel="noopener noreferrer">
-      <img src="assets/images/logos/nserc.svg" alt="NSERC" class="funder-logo">
-      <span class="funder-name">NSERC</span>
-    </a>
-  </div>
-</section>
-<style>
-.lab-page-container {
-  display: flex;
-  gap: 2rem;
-  align-items: flex-start;
-  flex-wrap: wrap;
-  margin-bottom: 2rem;
-}
 
-.lab-main-content {
-  flex: 1 1 0;
-  min-width: 0;
-  width: 100%;
-}
+    <section id="people" class="page-section" aria-labelledby="people-heading">
+      <div class="section-heading"><h2 id="people-heading">Our people</h2><a href="#join">Interested in joining? <span aria-hidden="true">↓</span></a></div>
+      <article class="pi">
+        <img class="pi-photo" src="assets/images/protrait_zy.jpeg" alt="Prof. Zhou Yang" width="132" height="166" loading="lazy">
+        <div class="pi-identity"><p class="eyebrow">Principal Investigator</p><h3>Prof. Zhou Yang</h3><p>Assistant Professor<br>University of Alberta<br>Amii Fellow</p><p class="person-links"><a href="https://homepage.zhouyang.me/">Homepage</a><a href="mailto:zy25@ualberta.ca">Email</a><a href="https://scholar.google.com/citations?user=4oWBhPsAAAAJ&amp;hl=en">Scholar</a></p></div>
+        <div class="pi-bio"><p>Zhou Yang is an Assistant Professor in the Department of Computing Science at the University of Alberta and an Amii Fellow. He completed his Ph.D. at Singapore Management University in December 2024, after earning an MSc from University College London. He previously served as a senior research engineer at the Centre for Research on Intelligent Software Engineering.</p>
+<p>His research establishes scientific and practical foundations for trustworthy code LLMs, integrating robustness, security, privacy, ecosystem understanding, and efficiency to support safer AI adoption in software engineering. He has received multiple major awards, including the 2026 MSR Outstanding Doctoral Research Award, the 2025 ACM SIGSOFT Outstanding Doctoral Dissertation Award, and the 2024 IEEE Computer Society Best Paper Award.</p></div>
+      </article>
+      <div class="graduate-groups">
+        <section class="people-group" aria-labelledby="phd-heading"><h3 id="phd-heading">PhD students</h3><div class="people-grid two"><article class="person">
+          <img src="assets/images/protrait_hz.jpg" alt="Hanzheng (Hozier) Dai" loading="lazy" width="80" height="96">
+          <div><h4>Hanzheng (Hozier) Dai</h4><p class="person-role">PhD Student, CS Department</p><p class="person-detail">Joined Jan 2026</p>
+          <p class="person-links"><a href="mailto:hanzhen3@ualberta.ca">Email</a>
+          <a href="https://hozierddd.github.io/">Homepage</a></p></div>
+        </article>
+<article class="person">
+          <img src="assets/images/protrait_melvin.jpg" alt="Ming Melvin Wang" loading="lazy" width="80" height="96">
+          <div><h4>Ming Melvin Wang</h4><p class="person-role">PhD Student, CS Department</p><p class="person-detail">Joined Sep 2026</p>
+          <p class="person-links"><a href="https://melvin-king.github.io/">Homepage</a></p></div>
+        </article></div></section>
+        <section class="people-group" aria-labelledby="msc-heading"><h3 id="msc-heading">MSc students</h3><div class="people-grid two"><article class="person">
+          <img src="assets/images/protrait_tanzim.png" alt="Tanzim Hossain Romel" loading="lazy" width="80" height="96">
+          <div><h4>Tanzim Hossain Romel</h4><p class="person-role">MSc Student, CS Department</p><p class="person-detail">Joined Sep 2026</p>
+          <p class="person-links"><a href="https://tanzimhromel.com">Homepage</a></p></div>
+        </article>
+<article class="person">
+          <img src="assets/images/protrait_zipeng.jpg" alt="Zipeng Ling" loading="lazy" width="80" height="96">
+          <div><h4>Zipeng Ling</h4><p class="person-role">MSc Student, CS Department</p><p class="person-detail">Joined Sep 2026</p>
+          <p class="person-links"><a href="mailto:zipeng6@ualberta.ca">Email</a>
+          <a href="https://zpling.github.io/">Homepage</a></p></div>
+        </article></div></section>
+      </div>
+      <section class="people-group" aria-labelledby="visitors-heading"><h3 id="visitors-heading">Visitors &amp; research assistants</h3><div class="people-grid four"><article class="person">
+          <img src="assets/images/protrait_zixi.jpg" alt="Zixi Chai" loading="lazy" width="80" height="96">
+          <div><h4>Zixi Chai</h4><p class="person-role">MEng Student, ECE Department</p><p class="person-detail">Joined Jan 2026</p>
+          <p class="person-links"><a href="mailto:zchai3@ualberta.ca">Email</a></p></div>
+        </article>
+<article class="person">
+          <img src="assets/images/protrait_yuyang.jpg" alt="Yuyang Wang" loading="lazy" width="80" height="96">
+          <div><h4>Yuyang Wang</h4><p class="person-role">Undergrad Student, CS Department</p><p class="person-detail">Joined May 2026</p>
+          <p class="person-links"><a href="mailto:yuyang31@ualberta.ca">Email</a></p></div>
+        </article>
+<article class="person">
+          <img src="assets/images/protrait_boyuan.jpg" alt="Boyuan Sun" loading="lazy" width="80" height="96">
+          <div><h4>Boyuan Sun</h4><p class="person-role">Undergrad Student, CS Department</p><p class="person-detail">Joined Jan 2026</p>
+          <p class="person-links"><a href="mailto:bsun5@ualberta.ca">Email</a></p></div>
+        </article>
+<article class="person">
+          <img src="assets/images/protrait_xingan.jpg" alt="Xingan Gao" loading="lazy" width="80" height="96">
+          <div><h4>Xingan Gao</h4><p class="person-role">CSC Joint PhD Student, CS Department</p><p class="person-detail">Joined Sep 2026</p>
+          <p class="person-links"><a href="mailto:DX120250116@stu.yzu.edu.cn">Email</a></p></div>
+        </article></div></section>
+      <section class="people-group honor-group" aria-labelledby="honor-heading"><h3 id="honor-heading">Hall of Honor <span>IRCC Delayed Students</span></h3><div class="people-grid three"><article class="person">
+          <img src="assets/images/protrait_gh.jpg" alt="Geng He" loading="lazy" width="80" height="96">
+          <div><h4>Geng He</h4><p class="person-role">Now Research Engineer@SMU</p><p class="person-detail">Co-Advised w/ Prof. David Lo</p>
+          </div>
+        </article>
+<article class="person">
+          <img src="assets/images/protrait_hhf.jpg" alt="Jingfeng Jiang" loading="lazy" width="80" height="96">
+          <div><h4>Jingfeng Jiang</h4><p class="person-role">Now PhD Student@Korea University</p><p class="person-detail">Co-Advised w/ Prof. Dongsun Kim</p>
+          </div>
+        </article>
+<article class="person">
+          <img src="assets/images/protrait_wenjia.jpg" alt="Wenjia Jiang" loading="lazy" width="80" height="96">
+          <div><h4>Wenjia Jiang</h4><p class="person-role">Now Research Engineer@SMU</p><p class="person-detail">Co-Advised w/ Prof. David Lo</p>
+          <p class="person-links"><a href="https://jwj1342.github.io/">Homepage</a></p></div>
+        </article></div></section>
+    </section>
 
-.lab-research-card,
-.lab-affiliation-card {
-  background: linear-gradient(180deg, #ffffff 0%, #f8fbff 100%);
-  border: 1px solid #e2e8f0;
-  border-radius: 18px;
-  box-shadow: 0 14px 30px rgba(15, 23, 42, 0.08);
-  min-width: 0;
-}
+    <section id="join" class="page-section" aria-labelledby="join-heading">
+      <div class="section-heading"><h2 id="join-heading">Join the group</h2><a href="mailto:zy25@ualberta.ca">zy25@ualberta.ca <span aria-hidden="true">↗</span></a></div>
+      <p class="section-intro">We welcome self-motivated students interested in software engineering, trustworthy AI, and code LLM research.</p>
+      <div class="openings-grid">
+        <article><p class="eyebrow">Graduate study</p><h3>PhD / Master by Research</h3><p>Applications for <strong>Fall 2027 are now open</strong>, but <strong>only very limited positions are available</strong>.</p><p>Contact <a href="mailto:zy25@ualberta.ca">zy25@ualberta.ca</a> with your CV, transcript, and a brief description of your research interests.</p></article>
+        <article><p class="eyebrow">Research experience</p><h3>Research assistants</h3><p>For current University of Alberta students, including ECE Master's students and undergraduates, interested in joining the group as research assistants.</p><p>Send your CV and transcript to <a href="mailto:zy25@ualberta.ca">zy25@ualberta.ca</a>.</p></article>
+        <article><p class="eyebrow">Individual studies</p><h3>CMPUT 399 / CMPUT 499</h3><p>For University of Alberta undergraduates interested in taking an individual study course with the group.</p><p>Contact <a href="mailto:zy25@ualberta.ca">zy25@ualberta.ca</a> with your CV and transcript.</p></article>
+      </div>
+      <div class="screening">
+        <div><h3>Getting started</h3><p>All prospective research assistants and individual study students go through a lightweight screening process, which typically involves:</p></div>
+        <ol><li><span>01</span><div><h4>Read</h4><p>A few selected papers relevant to your intended research area.</p></div></li><li><span>02</span><div><h4>Present</h4><p>A short talk to demonstrate your understanding of the papers.</p></div></li><li><span>03</span><div><h4>Implement</h4><p>Reproduce or implement baseline methods.</p></div></li></ol>
+        <p class="screening-note">We consider academic merits, prior research experience, and alignment with the group's research directions to assess research potential and ensure a good mutual fit.</p>
+      </div>
+    </section>
 
-.lab-research-card {
-  display: flow-root;
-  margin: 1.5rem 0 1.15rem;
-}
+    <section id="community" class="page-section community-section" aria-labelledby="community-heading">
+      <div class="section-heading"><h2 id="community-heading">In the community</h2><span class="muted">2026 events</span></div>
+      <p class="section-intro">We help build research communities around software engineering, human-centered AI, and trustworthy code LLMs.</p>
+      <div class="events">
+        <article><div class="event-place">Edmonton <span>May 23–24, 2026</span></div><div><h3><a href="https://www.cser.ca/2026s/">CSER 2026 <span aria-hidden="true">↗</span></a></h3><p>University of Alberta · Spring meeting</p></div></article>
+        <article><div class="event-place">Montreal <span>FSE 2026</span></div><div><h3><a href="https://humanai4se.github.io/">HumanAISE 2026 <span aria-hidden="true">↗</span></a></h3><p>2nd Workshop on Human-Centered AI for Software Engineering</p></div></article>
+        <article><div class="event-place">Montreal <span>July 6, 2026</span></div><div><h3><a href="https://poisonedchalice.github.io/">Poisoned Chalice Competition 2026 <span aria-hidden="true">↗</span></a></h3><p>Co-located with FSE 2026</p></div></article>
+      </div>
+    </section>
 
-.lab-research-image {
-  float: left;
-  width: 34%;
-  max-width: 220px;
-  height: auto;
-  margin: 0 1.3rem 0.65rem 0;
-  border-radius: 12px;
-}
+    <section class="support" aria-labelledby="support-heading"><h2 id="support-heading">Funding &amp;<br>institutional support</h2><div class="support-logos"><a href="https://www.amii.ca/"><img src="assets/images/logos/amii.png" alt="Amii" loading="lazy"></a><a href="https://cifar.ca/"><img src="assets/images/logos/cifar.svg" alt="CIFAR" loading="lazy"></a><a href="https://www.ualberta.ca/en/index.html"><img src="assets/images/logos/ualberta.png" alt="University of Alberta" loading="lazy"></a><a href="https://nserc-crsng.canada.ca/en"><img src="assets/images/logos/nserc.svg" alt="NSERC" loading="lazy"></a></div></section>
 
-.lab-research-card,
-.lab-affiliation-card {
-  padding: 1.3rem 1.4rem;
-}
-
-.lab-research-card h3,
-.lab-affiliation-card h3 {
-  margin-top: 0;
-  margin-bottom: 0.7rem;
-  font-size: 1.08rem;
-  font-weight: 700;
-}
-
-.lab-research-card p:last-child,
-.lab-affiliation-card p:last-child {
-  margin-bottom: 0;
-}
-
-.lab-tag-row {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.55rem;
-  margin-top: 1rem;
-}
-
-.lab-research-card .lab-tag-row {
-  clear: both;
-}
-
-.lab-tag {
-  display: inline-flex;
-  align-items: center;
-  padding: 0.42rem 0.7rem;
-  border-radius: 999px;
-  background: #e8f1ff;
-  color: #1d4ed8;
-  font-size: 0.82rem;
-  font-weight: 600;
-  line-height: 1;
-}
-
-.goose-acronym {
-  white-space: nowrap;
-}
-
-.goose-letter {
-  display: inline-block;
-  font-size: 1.08em;
-  font-weight: 700;
-  text-decoration: underline;
-  text-underline-offset: 0.1em;
-  text-decoration-thickness: 0.08em;
-}
-
-.lab-affiliation-card {
-  margin-bottom: 1rem;
-}
-
-.home-bento-band {
-  width: 100%;
-  margin: 0 0 2.2rem;
-}
-
-.home-bento-grid {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 1rem;
-}
-
-.home-bento-card {
-  border-radius: 18px;
-  border: 1px solid #dbe4f0;
-  background: linear-gradient(180deg, #ffffff 0%, #f8fbff 100%);
-  box-shadow: 0 14px 32px rgba(15, 23, 42, 0.08);
-  padding: 1.3rem 1.35rem;
-}
-
-.home-bento-link {
-  text-decoration: none;
-  color: inherit;
-  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
-}
-
-.home-bento-link:hover {
-  transform: translateY(-3px);
-  border-color: #93c5fd;
-  box-shadow: 0 16px 28px rgba(37, 99, 235, 0.12);
-}
-
-.home-bento-highlight {
-  grid-column: 1 / -1;
-  background:
-    radial-gradient(circle at top right, rgba(96, 165, 250, 0.16), transparent 28%),
-    linear-gradient(135deg, #f7fbff 0%, #eef5ff 100%);
-}
-
-.home-bento-eyebrow {
-  display: inline-flex;
-  margin-bottom: 0.65rem;
-  padding: 0.34rem 0.62rem;
-  border-radius: 999px;
-  background: #e8f1ff;
-  color: #1d4ed8;
-  font-size: 0.77rem;
-  font-weight: 700;
-  letter-spacing: 0.02em;
-  text-transform: uppercase;
-}
-
-.home-bento-card h3 {
-  margin: 0 0 0.6rem;
-  font-size: 1.15rem;
-  font-weight: 700;
-}
-
-.home-bento-card p {
-  margin: 0;
-  color: #475569;
-}
-
-.home-bento-cta {
-  display: inline-block;
-  margin-top: 1.1rem;
-  font-weight: 700;
-  color: #2563eb;
-}
-
-.event-stack {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 0.9rem;
-  margin-top: 1.2rem;
-}
-
-.event-pill {
-  display: flex;
-  min-height: 128px;
-  flex-direction: column;
-  justify-content: space-between;
-  gap: 0.7rem;
-  padding: 1rem;
-  border-radius: 16px;
-  border: 1px solid #d5e2f0;
-  background: rgba(255, 255, 255, 0.9);
-  color: inherit;
-  text-decoration: none;
-  transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
-}
-
-.event-pill:hover {
-  transform: translateY(-3px);
-  border-color: #60a5fa;
-  box-shadow: 0 12px 24px rgba(37, 99, 235, 0.12);
-}
-
-.event-pill strong {
-  color: #0f172a;
-  font-size: 1rem;
-}
-
-.event-pill span {
-  color: #475569;
-  font-size: 0.92rem;
-  line-height: 1.5;
-}
-
-.home-bento-note {
-  margin-top: 1rem !important;
-  font-size: 0.92rem;
-}
-
-.lab-news-sidebar {
-  flex: 0 1 420px;
-  min-width: 300px;
-  max-width: 420px;
-  width: 100%;
-  background-color: #f8fafc;
-  border-radius: 10px;
-  padding: 1.25rem;
-  border: 1px solid #e2e8f0;
-  position: sticky;
-  top: 80px;
-  max-height: calc(100vh - 100px);
-  display: flex;
-  flex-direction: column;
-}
-
-.news-list {
-  flex: 1 1 auto;
-  min-height: 0;
-  overflow-y: auto;
-  padding-right: 0.35rem;
-  scrollbar-gutter: stable;
-}
-
-.news-date {
-  color: #e53e3e;
-  font-weight: 600;
-}
-
-.lab-news-sidebar h3 {
-  font-size: 1.1rem;
-  font-weight: 700;
-  border-bottom: 2px solid #2563eb;
-  padding-bottom: 0.5rem;
-  margin-bottom: 1rem;
-}
-
-.news-list::-webkit-scrollbar {
-  width: 8px;
-}
-
-.news-list::-webkit-scrollbar-thumb {
-  background: #cbd5e1;
-  border-radius: 999px;
-}
-
-.news-list::-webkit-scrollbar-track {
-  background: transparent;
-}
-
-
-.lab-motto {
-  text-align: center;
-  font-style: italic;
-  color: #64748b;
-  margin: 0.5rem 0 1.5rem;
-}
-
-.info-row {
-  display: flex;
-  gap: 1rem;
-  flex-wrap: wrap;
-  margin: 1.25rem 0;
-}
-
-.info-item {
-  flex: 1;
-  min-width: 220px;
-  background: #f8fafc;
-  border: 1px solid #e2e8f0;
-  border-radius: 8px;
-  padding: 0.9rem 1rem;
-  font-size: 0.9rem;
-}
-
-.info-item p {
-  margin: 0;
-}
-
-.info-icon {
-  font-size: 1.4rem;
-  line-height: 1.3;
-}
-
-.join-box {
-  background-color: #fffbeb;
-  border: 1px solid #fcd34d;
-  border-left: 4px solid #f59e0b;
-  border-radius: 8px;
-  padding: 0.9rem 1.1rem;
-  font-size: 0.95rem;
-  margin-top: 1.5rem;
-  line-height: 1.7;
-}
-
-@media (max-width: 1280px) {
-  .home-bento-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-  .home-bento-highlight {
-    grid-column: 1 / -1;
-  }
-}
-
-@media (max-width: 768px) {
-  .lab-research-card {
-    padding: 1rem;
-  }
-  .lab-research-image {
-    width: 35%;
-    max-width: 132px;
-    margin-right: 0.85rem;
-  }
-  .home-bento-grid {
-    grid-template-columns: 1fr;
-  }
-  .event-stack {
-    grid-template-columns: 1fr;
-  }
-}
-
-@media (max-width: 1100px) {
-  .lab-page-container {
-    flex-direction: column;
-  }
-  .lab-news-sidebar {
-    max-width: 100%;
-    position: static;
-    max-height: none;
-  }
-  .news-list {
-    overflow: visible;
-    padding-right: 0;
-  }
-}
-</style>
-
-
-
-</main> <!-- /main -->
+  </main>
+  <footer class="wrap"><div><strong>U-A-Goose</strong><span>University of Alberta · Edmonton, Canada</span></div><a href="mailto:zhou.yang@ualberta.ca">Contact Prof. Zhou Yang</a><a href="index.html#about" data-section="about">Back to top ↑</a></footer>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
-    const icon = "";
-    const anchorJS = new window.AnchorJS();
-    anchorJS.options = {
-      placement: 'right',
-      icon: icon
-    };
-    anchorJS.add('.anchored');
+    const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
+    tabsets.forEach(function(tabset) {
+      const tabby = new Tabby('#' + tabset.id);
+    });
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     
@@ -797,7 +323,7 @@ ICSE, FSE, ASE, ISSTA · IJCAI, AAAI · IEEE S&P, ESORICS
         },
         interactive: true,
         interactiveBorder: 10,
-        theme: 'quarto',
+        theme: 'light-border',
         placement: 'bottom-start',
         plugins: [hideOnEscAndFocusOut],
       };
@@ -1108,26 +634,6 @@ ICSE, FSE, ASE, ISSTA · IJCAI, AAAI · IEEE S&P, ESORICS
     }
   });
   </script>
-  <script type="application/javascript">
-  window.quartoScrollableRegionsLabels = {"code":"Scrollable code","output":"Scrollable output"};
-  </script>
-</div> <!-- /content -->
-<footer class="footer">
-  <div class="nav-footer">
-    <div class="nav-footer-left">
-      &nbsp;
-    </div>   
-    <div class="nav-footer-center">
-<p>© 2026 U-A-Goose · Built with <a href="https://quarto.org">Quarto</a></p>
-</div>
-    <div class="nav-footer-right">
-      &nbsp;
-    </div>
-  </div>
-</footer>
 
 
-
-
-<script src="site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>
