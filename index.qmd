@@ -62,7 +62,7 @@ description: "U-A-Goose at the University of Alberta studies trustworthy softwar
         </article>
 <article class="person">
           <img src="assets/images/portrait_zhihan.jpg" alt="Zhihan Yang" loading="lazy" width="80" height="96">
-          <div><h4>Zhihan Yang</h4><p class="person-role">PhD Student, CS Department</p></div>
+          <div><h4>Zhihan Yang</h4><p class="person-role">PhD Student, CS Department</p><p class="person-detail">Joining in Dec 2026</p></div>
         </article></div></section>
         <section class="people-group" aria-labelledby="msc-heading"><h3 id="msc-heading">MSc students</h3><div class="people-grid two"><article class="person">
           <img src="assets/images/protrait_tanzim.png" alt="Tanzim Hossain Romel" loading="lazy" width="80" height="96">
