@@ -4,7 +4,8 @@ This Quarto project publishes the U-A-Goose Software Engineering Research Group 
 
 ## Content and appearance
 
-- `index.qmd` is the maintenance entry point for the single-page homepage: research introduction, News, People, Join us, Community, and institutional support.
+- `index.qmd` is the maintenance entry point for the single-page homepage: research introduction, Course, News, Team, Join us, Community, and institutional support.
+- `cmput-663-winter-2027.qmd` contains the Winter 2027 CMPUT 663 course introduction and materials. Add published course resources here as they become available.
 - `publications.qmd` maintains Publications as a separate page.
 - `assets/site.css`, `assets/site.js`, and `assets/site-template.html` control the shared appearance, navigation behavior, and page template.
 - Images and institutional logos are stored in `assets/images/`.

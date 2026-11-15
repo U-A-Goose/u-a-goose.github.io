@@ -15,6 +15,12 @@ description: "U-A-Goose at the University of Alberta studies trustworthy softwar
           <p>We study <strong>trustworthy software engineering in the AI era</strong>, asking: <strong>How can we help AI learn from limited, incomplete experience to reliably build and evolve complex software systems?</strong></p>
           <p>We use software engineering knowledge to shape better learning objectives, experiences, and feedback, helping models explore beyond established solutions and refine their judgments in light of verifiable evidence.</p>
         </div>
+        <section id="course" class="course-announcement" aria-labelledby="course-heading">
+          <div class="course-announcement-heading"><h2 id="course-heading">Course</h2><p>Winter 2027</p></div>
+          <h3><a href="cmput-663-winter-2027.html">CMPUT 663: AI for Software Engineering <span aria-hidden="true">↗</span></a></h3>
+          <p>We will offer this course in <strong>Winter 2027</strong>. For UofA students interested in doing research with Prof. Zhou Yang, <strong>we strongly recommend taking this course</strong>.</p>
+          <a class="course-materials-link" href="cmput-663-winter-2027.html">Course introduction &amp; materials <span aria-hidden="true">→</span></a>
+        </section>
       </div>
       <aside class="news" aria-labelledby="news-heading">
         <div class="news-heading"><h2 id="news-heading">News</h2><span>From the group</span></div>

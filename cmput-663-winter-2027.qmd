@@ -1,0 +1,42 @@
+---
+title: ""
+pagetitle: "CMPUT 663: AI for Software Engineering — Winter 2027"
+description: "Winter 2027 CMPUT 663 at the University of Alberta, taught by Prof. Zhou Yang. Course introduction, reading list, and teaching materials."
+---
+
+```{=html}
+<article class="course-page" aria-labelledby="course-title">
+  <a class="course-back" href="index.html#course"><span aria-hidden="true">←</span> Back to U-A-Goose</a>
+  <header class="course-header">
+    <p class="eyebrow">Winter 2027 · University of Alberta</p>
+    <h1 id="course-title">CMPUT 663: AI for Software Engineering</h1>
+    <dl class="course-facts">
+      <div><dt>Term</dt><dd>Winter 2027</dd></div>
+      <div><dt>Instructor</dt><dd><a href="https://homepage.zhouyang.me/">Prof. Zhou Yang</a></dd></div>
+      <div><dt>Department</dt><dd>Computing Science</dd></div>
+    </dl>
+  </header>
+
+  <section class="course-section" aria-labelledby="course-overview">
+    <h2 id="course-overview">Course overview</h2>
+    <p>This graduate course explores how AI is built and used for software engineering, with a focus on large language models of code and coding agents. It connects these systems to software engineering tasks and examines how to evaluate their usefulness, reliability, and limitations.</p>
+    <p>The course brings together software engineering and machine learning, including the security, privacy, and human factors that matter when AI is used in real software development.</p>
+    <p class="course-research-note"><strong>Interested in research?</strong> For University of Alberta students interested in doing research with Prof. Zhou Yang, we strongly recommend taking this course.</p>
+  </section>
+
+  <section class="course-section" aria-labelledby="course-materials">
+    <h2 id="course-materials">Course materials</h2>
+    <p>The Winter 2027 materials have not been published yet. The course outline, readings, and lecture materials will be added here as they become available.</p>
+    <dl class="course-resources">
+      <div><dt>Course outline</dt><dd>To be announced</dd></div>
+      <div><dt>Reading list</dt><dd>To be added</dd></div>
+      <div><dt>Lecture materials</dt><dd>To be added</dd></div>
+    </dl>
+  </section>
+
+  <section class="course-section" aria-labelledby="course-contact">
+    <h2 id="course-contact">Contact</h2>
+    <p>For course enquiries, email <a href="mailto:zy25@ualberta.ca">zy25@ualberta.ca</a>.</p>
+  </section>
+</article>
+```
