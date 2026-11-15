@@ -85,8 +85,6 @@ h1 { font-size: 43px; letter-spacing: -1.5px; }
 .person-role { font-size: 12px; color: var(--body); margin: 0; line-height: 1.55; }
 .person-detail { font-size: 11px; color: var(--muted); margin: 3px 0 0; line-height: 1.55; }
 .honor-group h3 span { font-size: 12px; font-weight: 400; color: var(--muted); margin-left: 10px; }
-.honor-group .person { grid-template-columns: 68px minmax(0, 1fr); }
-.honor-group .person img { width: 68px; height: 86px; }
 .section-intro { margin: -10px 0 26px; font-size: 15px; }
 .openings-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 28px; }
 .openings-grid article+article { border-left: 1px solid var(--line); padding-left: 28px; }
