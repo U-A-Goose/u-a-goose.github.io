@@ -85,6 +85,30 @@ description: "Winter 2027 CMPUT 663 at the University of Alberta, taught by Prof
         <div class="timeline-content">
           <h3>Post-Training Code Models</h3>
           <p>This week examines how pretrained code models are adapted to follow instructions, perform software engineering tasks, and learn from feedback. Topics include supervised fine-tuning and instruction tuning, preference optimization, knowledge distillation, and reinforcement learning with methods such as GRPO. Students will learn to design training examples and objectives, compare post-training methods, and investigate how learning signals affect model behavior and performance.</p>
+          <details class="week-reading-list" id="week-05-readings">
+            <summary><svg class="reading-chevron" viewBox="0 0 12 12" aria-hidden="true" focusable="false"><path d="m3 4.5 3 3 3-3" fill="none" stroke="currentColor" stroke-width="1.5"/></svg><span>Check Reading List:</span><span class="reading-count">19 papers</span></summary>
+            <ol class="reading-papers">
+              <li><a href="https://proceedings.neurips.cc/paper_files/paper/2022/hash/b1efde53be364a73914f58805a001731-Abstract-Conference.html">Training Language Models to Follow Instructions with Human Feedback</a><span class="reading-meta">Long Ouyang, Jeffrey Wu, Xu Jiang, et al., NeurIPS, 2022.</span></li>
+              <li><a href="https://aclanthology.org/2023.acl-long.754/">Self-Instruct: Aligning Language Models with Self-Generated Instructions</a><span class="reading-meta">Yizhong Wang, Yeganeh Kordi, Swaroop Mishra, et al., ACL, 2023.</span></li>
+              <li><a href="https://www.jmlr.org/papers/v25/23-0870.html">Scaling Instruction-Finetuned Language Models</a><span class="reading-meta">Hyung Won Chung, Le Hou, Shayne Longpre, et al., Journal of Machine Learning Research, 2024.</span></li>
+              <li><a href="https://openreview.net/forum?id=nZeVKeeFYf9">LoRA: Low-Rank Adaptation of Large Language Models</a><span class="reading-meta">Edward J. Hu, Yelong Shen, Phillip Wallis, et al., ICLR, 2022.</span></li>
+              <li><a href="https://proceedings.neurips.cc/paper_files/paper/2023/hash/a85b405ed65c6477a4fe8302b5e06ce7-Abstract-Conference.html">Direct Preference Optimization: Your Language Model is Secretly a Reward Model</a><span class="reading-meta">Rafael Rafailov, Archit Sharma, Eric Mitchell, et al., NeurIPS, 2023.</span></li>
+              <li><a href="https://arxiv.org/abs/2402.03300">DeepSeekMath: Pushing the Limits of Mathematical Reasoning in Open Language Models</a><span class="reading-meta">Zhihong Shao, Peiyi Wang, Qihao Zhu, et al., DeepSeek Technical Report, 2024.</span></li>
+              <li><a href="https://www.nature.com/articles/s41586-025-09422-z">DeepSeek-R1 Incentivizes Reasoning in LLMs through Reinforcement Learning</a><span class="reading-meta">Daya Guo, Dejian Yang, Haowei Zhang, et al., Nature, 2025.</span></li>
+              <li><a href="https://papers.neurips.cc/paper_files/paper/2022/hash/8636419dea1aa9fbd25fc4248e702da4-Abstract-Conference.html">CodeRL: Mastering Code Generation through Pretrained Models and Deep Reinforcement Learning</a><span class="reading-meta">Hung Le, Yue Wang, Akhilesh Deepak Gotmare, et al., NeurIPS, 2022.</span></li>
+              <li><a href="https://proceedings.iclr.cc/paper_files/paper/2024/hash/72eba29737f9c3a5a4ce8cdb7b667145-Abstract-Conference.html">WizardCoder: Empowering Code Large Language Models with Evol-Instruct</a><span class="reading-meta">Ziyang Luo, Can Xu, Pu Zhao, et al., ICLR, 2024.</span></li>
+              <li><a href="https://proceedings.mlr.press/v235/wei24h.html">Magicoder: Empowering Code Generation with OSS-Instruct</a><span class="reading-meta">Yuxiang Wei, Zhe Wang, Jiawei Liu, et al., ICML, 2024.</span></li>
+              <li><a href="https://aclanthology.org/2024.findings-acl.762/">OpenCodeInterpreter: Integrating Code Generation with Execution and Refinement</a><span class="reading-meta">Tianyu Zheng, Ge Zhang, Tianhao Shen, et al., Findings of ACL, 2024.</span></li>
+              <li><a href="https://proceedings.iclr.cc/paper_files/paper/2025/hash/871ac99fdc5282d0301934d23945ebaa-Abstract-Conference.html">Training Language Models to Self-Correct via Reinforcement Learning</a><span class="reading-meta">Aviral Kumar, Vincent Zhuang, Rishabh Agarwal, et al., ICLR, 2025.</span></li>
+              <li><a href="https://proceedings.mlr.press/v267/pan25g.html">Training Software Engineering Agents and Verifiers with SWE-Gym</a><span class="reading-meta">Jiayi Pan, Xingyao Wang, Graham Neubig, et al., ICML, 2025.</span></li>
+              <li><a href="https://proceedings.neurips.cc/paper_files/paper/2025/hash/7107d4d2e837bde2171c6b71b5bde954-Abstract-Conference.html">SWE-RL: Advancing LLM Reasoning via Reinforcement Learning on Open Software Evolution</a><span class="reading-meta">Yuxiang Wei, Olivier Duchenne, Jade Copet, et al., NeurIPS, 2025.</span></li>
+              <li><a href="https://papers.nips.cc/paper_files/paper/2025/hash/8b86cf5ace600c48fd188efbb8dedec8-Abstract-Datasets_and_Benchmarks_Track.html">SWE-smith: Scaling Data for Software Engineering Agents</a><span class="reading-meta">John Yang, Kilian Lieret, Carlos E. Jimenez, et al., NeurIPS Datasets and Benchmarks Track, 2025.</span></li>
+              <li><a href="https://proceedings.mlr.press/v306/shen26o.html">SERA: Soft-Verified Efficient Repository Agents</a><span class="reading-meta">Ethan Shen, Daniel Tormoen, Saurabh Shah, et al., ICML, 2026.</span></li>
+              <li><a href="https://proceedings.mlr.press/v306/wei26x.html">Toward Training Superintelligent Software Agents through Self-Play SWE-RL</a><span class="reading-meta">Yuxiang Wei, Zhiqing Sun, Emily Mcmilin, et al., ICML, 2026.</span></li>
+              <li><a href="https://arxiv.org/abs/2608.17393">LEGO-RL: Harness-Native Reinforcement Learning for Coding Agents</a><span class="reading-meta">Yiming Du, Yuxin Jiang, Tao Yuan, et al., arXiv, 2026.</span></li>
+              <li><a href="https://proceedings.neurips.cc/paper_files/paper/2025/hash/537d5aa768c2d534016a4d06f87bc8fb-Abstract-Conference.html">Does Reinforcement Learning Really Incentivize Reasoning Capacity in LLMs Beyond the Base Model?</a><span class="reading-meta">Yang Yue, Zhiqi Chen, Rui Lu, et al., NeurIPS, 2025.</span></li>
+            </ol>
+          </details>
         </div>
       </li>
       <li id="week-06">
@@ -165,7 +189,7 @@ description: "Winter 2027 CMPUT 663 at the University of Alberta, taught by Prof
     <p>The weekly topics and available reading lists are included in the timeline above. More readings and lecture materials will be added here as they become available.</p>
     <dl class="course-resources">
       <div><dt>Course timeline</dt><dd><a href="#course-timeline">View weekly topics <span aria-hidden="true">↑</span></a></dd></div>
-      <div><dt>Reading list</dt><dd><a href="#week-04-readings">Week 04 · 19 papers</a></dd></div>
+      <div><dt>Reading lists</dt><dd><a href="#week-04-readings">Week 04 · 19 papers</a><br><a href="#week-05-readings">Week 05 · 19 papers</a></dd></div>
       <div><dt>Lecture materials</dt><dd>To be added</dd></div>
     </dl>
   </section>
