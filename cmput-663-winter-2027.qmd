@@ -54,6 +54,30 @@ description: "Winter 2027 CMPUT 663 at the University of Alberta, taught by Prof
         <div class="timeline-content">
           <h3>Code Representation Learning and Pretraining</h3>
           <p>This week examines code representation learning and language model pretraining, covering tokenization, model architectures, training data, and pretraining objectives. Examples include code completion, masked language modeling, and fill-in-the-middle training. Students will explore how data and training objectives shape model capabilities, and learn to prepare training examples and conduct small-scale training experiments.</p>
+          <details class="week-reading-list" id="week-04-readings">
+            <summary><svg class="reading-chevron" viewBox="0 0 12 12" aria-hidden="true" focusable="false"><path d="m3 4.5 3 3 3-3" fill="none" stroke="currentColor" stroke-width="1.5"/></svg><span>Check Reading List:</span><span class="reading-count">19 papers</span></summary>
+            <ol class="reading-papers">
+              <li><a href="https://arxiv.org/abs/1803.09473">code2vec: Learning Distributed Representations of Code</a><span class="reading-meta">Uri Alon, Meital Zilberstein, Omer Levy, et al., POPL, 2019.</span></li>
+              <li><a href="https://aclanthology.org/2020.findings-emnlp.139/">CodeBERT: A Pre-Trained Model for Programming and Natural Languages</a><span class="reading-meta">Zhangyin Feng, Daya Guo, Duyu Tang, et al., Findings of EMNLP, 2020.</span></li>
+              <li><a href="https://datasets-benchmarks-proceedings.neurips.cc/paper/2021/hash/c16a5320fa475530d9583c34fd356ef5-Abstract-round1.html">CodeXGLUE: A Machine Learning Benchmark Dataset for Code Understanding and Generation</a><span class="reading-meta">Shuai Lu, Daya Guo, Shuo Ren, et al., NeurIPS Datasets and Benchmarks Track, 2021.</span></li>
+              <li><a href="https://arxiv.org/abs/2107.03374">Evaluating Large Language Models Trained on Code</a><span class="reading-meta">Mark Chen, Jerry Tworek, Heewoo Jun, et al., OpenAI Technical Report, 2021.</span></li>
+              <li><a href="https://arxiv.org/abs/2207.14255">Efficient Training of Language Models to Fill in the Middle</a><span class="reading-meta">Mohammad Bavarian, Heewoo Jun, Nikolas Tezak, et al., OpenAI Technical Report, 2022.</span></li>
+              <li><a href="https://arxiv.org/abs/2203.13474">CodeGen: An Open Large Language Model for Code with Multi-Turn Program Synthesis</a><span class="reading-meta">Erik Nijkamp, Bo Pang, Hiroaki Hayashi, et al., ICLR, 2023.</span></li>
+              <li><a href="https://arxiv.org/abs/2305.02309">CodeGen2: Lessons for Training LLMs on Programming and Natural Languages</a><span class="reading-meta">Erik Nijkamp, Hiroaki Hayashi, Caiming Xiong, et al., Salesforce Technical Report, 2023.</span></li>
+              <li><a href="https://arxiv.org/abs/2306.11644">Textbooks Are All You Need</a><span class="reading-meta">Suriya Gunasekar, Yi Zhang, Jyoti Aneja, et al., Microsoft Research Technical Report, 2023.</span></li>
+              <li><a href="https://arxiv.org/abs/2308.12950">Code Llama: Open Foundation Models for Code</a><span class="reading-meta">Baptiste Rozière, Jonas Gehring, Fabian Gloeckle, et al., Meta AI Technical Report, 2023.</span></li>
+              <li><a href="https://arxiv.org/abs/2401.14196">DeepSeek-Coder: When the Large Language Model Meets Programming—The Rise of Code Intelligence</a><span class="reading-meta">Daya Guo, Qihao Zhu, Dejian Yang, et al., DeepSeek Technical Report, 2024.</span></li>
+              <li><a href="https://arxiv.org/abs/2402.19173">StarCoder 2 and The Stack v2: The Next Generation</a><span class="reading-meta">Anton Lozhkov, Raymond Li, Loubna Ben Allal, et al., arXiv, 2024.</span></li>
+              <li><a href="https://arxiv.org/abs/2405.04324">Granite Code Models: A Family of Open Foundation Models for Code Intelligence</a><span class="reading-meta">Mayank Mishra, Matt Stallone, Gaoyuan Zhang, et al., IBM Technical Report, 2024.</span></li>
+              <li><a href="https://arxiv.org/abs/2406.11409">CodeGemma: Open Code Models Based on Gemma</a><span class="reading-meta">CodeGemma Team, Heri Zhao, Jeffrey Hui, et al., Google Technical Report, 2024.</span></li>
+              <li><a href="https://arxiv.org/abs/2406.11931">DeepSeek-Coder-V2: Breaking the Barrier of Closed-Source Models in Code Intelligence</a><span class="reading-meta">DeepSeek-AI, Qihao Zhu, Daya Guo, et al., DeepSeek Technical Report, 2024.</span></li>
+              <li><a href="https://arxiv.org/abs/2409.12186">Qwen2.5-Coder Technical Report</a><span class="reading-meta">Binyuan Hui, Jian Yang, Zeyu Cui, et al., Alibaba Technical Report, 2024.</span></li>
+              <li><a href="https://arxiv.org/abs/2506.03524">Seed-Coder: Let the Code Model Curate Data for Itself</a><span class="reading-meta">ByteDance Seed, Yuyu Zhang, Jing Su, et al., ByteDance Technical Report, 2025.</span></li>
+              <li><a href="https://arxiv.org/abs/2510.05788">Mellum: Production-Grade in-IDE Contextual Code Completion with Multi-File Project Understanding</a><span class="reading-meta">Nikita Pavlichenko, Iurii Nazarov, Ivan Dolgov, et al., JetBrains Technical Report, 2025.</span></li>
+              <li><a href="https://arxiv.org/abs/2603.00729">Qwen3-Coder-Next Technical Report</a><span class="reading-meta">Ruisheng Cao, Mouxiang Chen, Jiawei Chen, et al., Alibaba Technical Report, 2026.</span></li>
+              <li><a href="https://arxiv.org/abs/2605.31268">Mellum2 Technical Report</a><span class="reading-meta">Marko Kojic, Ivan Bondyrev, Aral de Moor, et al., JetBrains Technical Report, 2026.</span></li>
+            </ol>
+          </details>
         </div>
       </li>
       <li id="week-05">
@@ -138,10 +162,10 @@ description: "Winter 2027 CMPUT 663 at the University of Alberta, taught by Prof
 
   <section class="course-section" aria-labelledby="course-materials">
     <h2 id="course-materials">Course materials</h2>
-    <p>The weekly topics are listed in the timeline above. Readings and lecture materials will be added here as they become available.</p>
+    <p>The weekly topics and available reading lists are included in the timeline above. More readings and lecture materials will be added here as they become available.</p>
     <dl class="course-resources">
       <div><dt>Course timeline</dt><dd><a href="#course-timeline">View weekly topics <span aria-hidden="true">↑</span></a></dd></div>
-      <div><dt>Reading list</dt><dd>To be added</dd></div>
+      <div><dt>Reading list</dt><dd><a href="#week-04-readings">Week 04 · 19 papers</a></dd></div>
       <div><dt>Lecture materials</dt><dd>To be added</dd></div>
     </dl>
   </section>
