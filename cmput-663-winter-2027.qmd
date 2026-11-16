@@ -24,11 +24,123 @@ description: "Winter 2027 CMPUT 663 at the University of Alberta, taught by Prof
     <p class="course-research-note"><strong>Interested in research?</strong> For University of Alberta students interested in doing research with us, we strongly recommend taking this course.</p>
   </section>
 
+  <section class="course-section course-timeline-section" aria-labelledby="course-timeline">
+    <h2 id="course-timeline">Course timeline</h2>
+    <p class="timeline-summary">15 teaching weeks · 2 classes per week · Reading Week excluded</p>
+    <ol class="course-timeline" role="list">
+      <li id="week-01">
+        <span class="timeline-week">Week 01</span>
+        <div class="timeline-content">
+          <h3>Introduction to Software Engineering</h3>
+          <p>This week introduces the goals, processes, tasks, and challenges of software engineering, covering requirements engineering, design, implementation, testing, deployment, and maintenance. Students will become familiar with software representations, formal specifications, testing, fuzzing, program analysis, agile development, and modern development tools, providing a foundation for understanding the engineering problems that AI can help address.</p>
+        </div>
+      </li>
+      <li id="week-02">
+        <span class="timeline-week">Week 02</span>
+        <div class="timeline-content">
+          <h3>Research Methods in Software Engineering</h3>
+          <p>This week introduces the research process in software engineering, including research questions and hypotheses, literature search and review, research design and evaluation, academic writing, and peer review. Students will learn to critically read existing work, assess research claims and supporting evidence, identify open problems, and develop an initial proposal for their group project.</p>
+        </div>
+      </li>
+      <li id="week-03">
+        <span class="timeline-week">Week 03</span>
+        <div class="timeline-content">
+          <h3>Mining Software Repositories and Software Analytics</h3>
+          <p>This week explores how source code, version histories, issue reports, code reviews, and execution logs can provide insights into software development and support task automation. Topics include data collection, feature and label design, classification, regression, clustering, and deep learning. Students will learn to construct research datasets and examine how data quality, sampling bias, and data leakage affect their findings.</p>
+        </div>
+      </li>
+      <li id="week-04">
+        <span class="timeline-week">Week 04</span>
+        <div class="timeline-content">
+          <h3>Code Representation Learning and Pretraining</h3>
+          <p>This week examines code representation learning and language model pretraining, covering tokenization, model architectures, training data, and pretraining objectives. Examples include code completion, masked language modeling, and fill-in-the-middle training. Students will explore how data and training objectives shape model capabilities, and learn to prepare training examples and conduct small-scale training experiments.</p>
+        </div>
+      </li>
+      <li id="week-05">
+        <span class="timeline-week">Week 05</span>
+        <div class="timeline-content">
+          <h3>Post-Training Code Models</h3>
+          <p>This week examines how pretrained code models are adapted to follow instructions, perform software engineering tasks, and learn from feedback. Topics include supervised fine-tuning and instruction tuning, preference optimization, knowledge distillation, and reinforcement learning with methods such as GRPO. Students will learn to design training examples and objectives, compare post-training methods, and investigate how learning signals affect model behavior and performance.</p>
+        </div>
+      </li>
+      <li id="week-06">
+        <span class="timeline-week">Week 06</span>
+        <div class="timeline-content">
+          <h3>Inference-Time Scaling</h3>
+          <p>This week explores how additional computation at inference time can improve performance on software engineering tasks. Topics include sampling multiple candidates, reasoning, search, iterative refinement, execution feedback, and verification. Students will learn to distinguish candidate generation from candidate selection, compare strategies under matched computational budgets, and analyze trade-offs among task success, latency, and computational cost.</p>
+        </div>
+      </li>
+      <li id="week-07">
+        <span class="timeline-week">Week 07</span>
+        <div class="timeline-content">
+          <h3>Coding Agents</h3>
+          <p>This week introduces agents that combine language models, tool use, and environmental feedback to perform software engineering tasks. Topics include task decomposition, repository exploration, planning, memory, and multi-agent collaboration. Through examples of fault localization, code modification, testing, and repair, students will learn to build a basic agent loop, analyze execution traces, and compare different workflows.</p>
+        </div>
+      </li>
+      <li id="week-08">
+        <span class="timeline-week">Week 08</span>
+        <div class="timeline-content">
+          <h3>Agent Harnesses</h3>
+          <p>This week examines agent harnesses, the software infrastructure that supports and controls agent execution. Topics include tool interfaces, execution environments, context management, state persistence, resource budgets, and failure handling and recovery. Students will learn how these choices affect the information, actions, and feedback available to an agent, and gain experience modifying harness components and evaluating their interaction with the model.</p>
+        </div>
+      </li>
+      <li id="week-09">
+        <span class="timeline-week">Week 09</span>
+        <div class="timeline-content">
+          <h3>AI for Software Engineering in Industry</h3>
+          <p>Industry practitioners will share their experience developing and deploying AI tools for software engineering. Discussions will examine how models and agents fit into development workflows, including code review and team collaboration, and how quality, cost, and operational constraints influence adoption. Students will use concrete cases to assess benefits and limitations, understand engineering bottlenecks, and identify research opportunities.</p>
+        </div>
+      </li>
+      <li id="week-10">
+        <span class="timeline-week">Week 10</span>
+        <div class="timeline-content">
+          <h3>Benchmarking and Evaluation</h3>
+          <p>This week examines how software engineering benchmarks are constructed and evaluated, including task selection, data splits, execution environments, and evaluation metrics. We will consider functional correctness, the runtime performance of generated software, and agent efficiency, alongside data leakage, test adequacy, variability, and the reliability of human and model-based evaluation. Students will learn to design reproducible comparisons and assess which conclusions the results support.</p>
+        </div>
+      </li>
+      <li id="week-11">
+        <span class="timeline-week">Week 11</span>
+        <div class="timeline-content">
+          <h3>Reliability, Security, and Privacy</h3>
+          <p>This week examines the reliability, security, and privacy of coding agents and generated software, as well as fairness requirements in relevant applications. Topics include secure code generation, prompt injection, unsafe tool use, access control, runtime verification, and human oversight. Students will learn to identify risks, evaluate mitigation strategies, and understand their guarantees, limitations, and effects on task completion.</p>
+        </div>
+      </li>
+      <li id="week-12">
+        <span class="timeline-week">Week 12</span>
+        <div class="timeline-content">
+          <h3>Applications in Hardware, Robotics, and Algorithm Optimization</h3>
+          <p>This week explores applications of code models and agents in hardware and integrated circuit design, robotics, and algorithm optimization. Through examples of domain adaptation, code generation, tool use, and verification, students will compare the domain knowledge, program representations, execution environments, and feedback required in each setting. They will examine where existing methods transfer and identify new engineering challenges.</p>
+        </div>
+      </li>
+      <li id="week-13">
+        <span class="timeline-week">Week 13</span>
+        <div class="timeline-content">
+          <h3>Research Project Presentations I</h3>
+          <p>The first set of groups will present their research projects and papers, covering the research questions, related work, methods, experimental results, and limitations. Through demonstrations, questions, and peer feedback, students will explain how the evidence supports their contributions, discuss reproducibility, and identify revisions needed to strengthen their work.</p>
+        </div>
+      </li>
+      <li id="week-14">
+        <span class="timeline-week">Week 14</span>
+        <div class="timeline-content">
+          <h3>Research Project Presentations II</h3>
+          <p>The remaining groups will present their research projects and papers, covering the research questions, related work, methods, experimental results, and limitations. Through demonstrations, questions, and peer feedback, students will explain how the evidence supports their contributions, discuss reproducibility, and identify revisions needed to strengthen their work.</p>
+        </div>
+      </li>
+      <li id="week-15">
+        <span class="timeline-week">Week 15</span>
+        <div class="timeline-content">
+          <h3>Project Revisions and Research Artifacts</h3>
+          <p>Groups will present their revisions and respond to feedback from earlier sessions. Discussions will focus on additional evidence, changes to methods or conclusions, remaining limitations, and reproducibility. Students will refine their papers and research artifacts, justify their final claims, and identify the work needed before submission to a research venue.</p>
+        </div>
+      </li>
+    </ol>
+  </section>
+
   <section class="course-section" aria-labelledby="course-materials">
     <h2 id="course-materials">Course materials</h2>
-    <p>The Winter 2027 materials have not been published yet. The course outline, readings, and lecture materials will be added here as they become available.</p>
+    <p>The weekly topics are listed in the timeline above. Readings and lecture materials will be added here as they become available.</p>
     <dl class="course-resources">
-      <div><dt>Course outline</dt><dd>To be announced</dd></div>
+      <div><dt>Course timeline</dt><dd><a href="#course-timeline">View weekly topics <span aria-hidden="true">↑</span></a></dd></div>
       <div><dt>Reading list</dt><dd>To be added</dd></div>
       <div><dt>Lecture materials</dt><dd>To be added</dd></div>
     </dl>
