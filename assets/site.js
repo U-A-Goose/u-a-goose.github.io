@@ -5,6 +5,19 @@ for (const link of document.querySelectorAll('a[data-section]')) {
   }
 }
 
+// News: site.css shows the newest items; this button reveals the older ones in place.
+const newsList = document.getElementById('news-list');
+const newsMore = document.querySelector('.news-more');
+if (newsList && newsMore) {
+  const hasOlderItems = [...newsList.children].some(item => getComputedStyle(item).display === 'none');
+  if (!hasOlderItems) newsMore.hidden = true;
+  newsMore.addEventListener('click', () => {
+    const expanded = newsList.classList.toggle('is-expanded');
+    newsMore.setAttribute('aria-expanded', String(expanded));
+    newsMore.textContent = expanded ? 'Show less' : 'Earlier news';
+  });
+}
+
 const navigation = [...document.querySelectorAll('.site-header nav a[data-section]')];
 const sections = navigation.map(link => document.getElementById(link.dataset.section)).filter(Boolean);
 const header = document.querySelector('.site-header');
