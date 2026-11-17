@@ -207,7 +207,7 @@ page-layout: full
     <div class="pub-content">
       <p class="pub-title"><b>Towards Robust, Secure, and Privacy-Aware Large Language Models of Code.</b></p>
       <p class="pub-authors">Zhou Yang.</p>
-      <p class="pub-award"><b><u style="color: red;">🏆ACM SIGSOFT Outstanding Doctoral Dissertation Award</u></b></p>
+      <p class="pub-award">🏆 ACM SIGSOFT Outstanding Doctoral Dissertation Award</p>
     </div>
   </article>
 
@@ -278,7 +278,7 @@ page-layout: full
     <div class="pub-content">
       <p class="pub-title"><b>"My productivity is boosted, but ..." Demystifying Users' Perception on AI Coding Assistants.</b></p>
       <p class="pub-authors">Yunbo Lyu, Zhou Yang, Jieke Shi, Jianming Chang, Yue Liu, David Lo.</p>
-      <p class="pub-award"><b><u style="color: red;">🏆ACM SIGSOFT Distinguished Paper Award</u></b></p>
+      <p class="pub-award">🏆 ACM SIGSOFT Distinguished Paper Award</p>
     </div>
   </article>
 
@@ -361,7 +361,7 @@ page-layout: full
     <div class="pub-content">
       <p class="pub-title"><b>Classifying Source Code: How Far Can Compressor-based Classifiers Go?</b></p>
       <p class="pub-authors">Zhou Yang.</p>
-      <p class="pub-award"><b><u style="color: red;">🏆ACM Student Research Competition Gold Medal</u></b></p>
+      <p class="pub-award">🏆 ACM Student Research Competition Gold Medal</p>
     </div>
   </article>
 
@@ -402,7 +402,7 @@ page-layout: full
     <div class="pub-content">
       <p class="pub-title"><b>AI Coders Are among Us: Rethinking Programming Language Grammar towards Efficient Code Generation.</b></p>
       <p class="pub-authors">Zhensu Sun, Xiaoning Du, Zhou Yang, Li Li, David Lo.</p>
-      <p class="pub-award"><b><u style="color: red;">🏆ACM SIGSOFT Distinguished Paper Award</u></b></p>
+      <p class="pub-award">🏆 ACM SIGSOFT Distinguished Paper Award</p>
     </div>
   </article>
 
@@ -443,7 +443,7 @@ page-layout: full
     <div class="pub-content">
       <p class="pub-title"><b>Large Language Models for Software Engineering: A Systematic Literature Review.</b></p>
       <p class="pub-authors">Xinyi Hou, Yanjie Zhao, Yue Liu, Zhou Yang, Kailong Wang, Li Li, Xiapu Luo, David Lo, John Grundy, Haoyu Wang.</p>
-      <p class="pub-award"><b><u style="color: red;">🏆ACM TOSEM 2024 Most Cited Paper</u></b></p>
+      <p class="pub-award">🏆 ACM TOSEM 2024 Most Cited Paper</p>
     </div>
   </article>
 
@@ -484,7 +484,7 @@ page-layout: full
     <div class="pub-content">
       <p class="pub-title"><b>Stealthy Backdoor Attack for Code Models.</b></p>
       <p class="pub-authors">Zhou Yang, Bowen Xu, Jie M. Zhang, Hong Jin Kang, Jieke Shi, Junda He, David Lo.</p>
-      <p class="pub-award"><b><u style="color: red;">🏆IEEE Computer Society Best Paper Award</u></b></p>
+      <p class="pub-award">🏆 IEEE Computer Society Best Paper Award</p>
     </div>
   </article>
 
@@ -616,7 +616,7 @@ page-layout: full
     <div class="pub-content">
       <p class="pub-title"><b>Compressing Pre-trained Models of Code into 3 MB.</b></p>
       <p class="pub-authors">Jieke Shi, Zhou Yang, Bowen Xu, Hong Jin Kang, David Lo.</p>
-      <p class="pub-award"><b><u style="color: red;">🏆ACM SIGSOFT Distinguished Paper Award Nomination</u></b></p>
+      <p class="pub-award">🏆 ACM SIGSOFT Distinguished Paper Award Nomination</p>
     </div>
   </article>
 
@@ -657,7 +657,7 @@ page-layout: full
     <div class="pub-content">
       <p class="pub-title"><b>Curiosity-Driven and Victim-Aware Adversarial Policies.</b></p>
       <p class="pub-authors">Chen Gong, Zhou Yang, Yunpeng Bai, Jieke Shi, Arunesh Sinha, Bowen Xu, David Lo, Xinwen Hou, Guoliang Fan.</p>
-      <p class="pub-award"><b><u style="color: red;">🏆Honorable Mention Award</u></b></p>
+      <p class="pub-award">🏆 Honorable Mention Award</p>
     </div>
   </article>
 
